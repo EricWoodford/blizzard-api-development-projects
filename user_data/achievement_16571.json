@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16571?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16571,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Well Supplied",
+    "description": "Unlock every talent in the Expedition Supplies tree.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139254,
+        "description": "All talents unlocked.",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16571?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16571
+    },
+    "display_order": 54
+}

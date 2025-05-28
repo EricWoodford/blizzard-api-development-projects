@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18638?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18638,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Minute Menagerie",
+    "description": "Obtain a variety of pets from alternate timeways by completing Time Rifts.",
+    "points": 15,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 147611,
+        "description": "10.1.5 Time Rifts - Achievement - Get Pets",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 147612,
+                "description": "Gill'dan",
+                "amount": 1
+            },
+            {
+                "id": 147613,
+                "description": "Briarhorn Hatchling",
+                "amount": 1
+            },
+            {
+                "id": 147651,
+                "description": "N'Ruby",
+                "amount": 1
+            },
+            {
+                "id": 147614,
+                "description": "Doomrubble",
+                "amount": 1
+            },
+            {
+                "id": 147615,
+                "description": "Jeepers",
+                "amount": 1
+            },
+            {
+                "id": 147616,
+                "description": "Obsidian Warwhelp",
+                "amount": 1
+            },
+            {
+                "id": 147617,
+                "description": "Killbot 9000",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18638?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18638
+    },
+    "display_order": 162
+}

@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16339?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16339,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15467?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight Dungeon",
+        "id": 15467
+    },
+    "name": "Myths of the Dragonflight Dungeons",
+    "description": "Complete each of the following Dragonflight dungeons on Mythic or Mythic Keystone difficulty.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138080,
+        "description": "Complete each of the following Dragonflight dungeons on Mythic or Mythic Keystone difficulty.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138081,
+                "description": "Mythic: Algeth'ar Academy",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16271?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Algeth'ar Academy",
+                    "id": 16271
+                }
+            },
+            {
+                "id": 138082,
+                "description": "Mythic: Brackenhide Hollow",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16257?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Brackenhide Hollow",
+                    "id": 16257
+                }
+            },
+            {
+                "id": 138083,
+                "description": "Mythic: Halls of Infusion",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16262?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Halls of Infusion",
+                    "id": 16262
+                }
+            },
+            {
+                "id": 138084,
+                "description": "Mythic: Neltharus",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16265?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Neltharus",
+                    "id": 16265
+                }
+            },
+            {
+                "id": 138085,
+                "description": "Mythic: Ruby Life Pools",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16268?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Ruby Life Pools",
+                    "id": 16268
+                }
+            },
+            {
+                "id": 138086,
+                "description": "Mythic: The Azure Vault",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16274?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: The Azure Vault",
+                    "id": 16274
+                }
+            },
+            {
+                "id": 138087,
+                "description": "Mythic: The Nokhud Offensive",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16277?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: The Nokhud Offensive",
+                    "id": 16277
+                }
+            },
+            {
+                "id": 138088,
+                "description": "Mythic: Uldaman: Legacy of Tyr",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16280?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mythic: Uldaman: Legacy of Tyr",
+                    "id": 16280
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16339?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16339
+    },
+    "display_order": 25
+}

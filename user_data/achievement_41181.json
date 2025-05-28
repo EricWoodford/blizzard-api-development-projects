@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41181?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41181,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Joining the Community",
+    "description": "Reach Renown level 30 with the Iskaara Tuskarr.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138934,
+        "description": "10.0 Renown - Iskaara Tuskarr - Rank 30v2",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138935,
+                "description": null,
+                "amount": 30,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41181?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41181
+    },
+    "display_order": 48
+}

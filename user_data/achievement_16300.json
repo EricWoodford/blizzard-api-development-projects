@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16300?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16300,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Treasures of The Azure Span",
+    "description": "Discover the hidden treasures within the Azure Span.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 137698,
+        "description": "Unique Treasures: The Azure Span",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 137699,
+                "description": "Forgotten Jewel Box",
+                "amount": 1
+            },
+            {
+                "id": 137700,
+                "description": "Gnoll Fiend Flail",
+                "amount": 1
+            },
+            {
+                "id": 137701,
+                "description": "Sapphire Gem Cluster",
+                "amount": 1
+            },
+            {
+                "id": 137702,
+                "description": "Lost Compass",
+                "amount": 1
+            },
+            {
+                "id": 137703,
+                "description": "Rubber Fish",
+                "amount": 1
+            },
+            {
+                "id": 137704,
+                "description": "Pepper Hammer",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16300?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16300
+    },
+    "display_order": 34
+}

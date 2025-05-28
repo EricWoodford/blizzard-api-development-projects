@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19026?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19026,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Defenders of the Dream",
+    "description": "Complete the following storylines in the Emerald Dream.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 149726,
+        "description": "10.2 Dream - Defenders of the Dream - Campaign Credit",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 149727,
+                "description": "Enter the Dream",
+                "amount": 1
+            },
+            {
+                "id": 149729,
+                "description": "Druids of the Flame",
+                "amount": 1
+            },
+            {
+                "id": 149731,
+                "description": "Ice and Fire",
+                "amount": 1
+            },
+            {
+                "id": 149733,
+                "description": "Eye of Ysera",
+                "amount": 1
+            },
+            {
+                "id": 149735,
+                "description": "A Dream of Fields and Fire",
+                "amount": 1
+            },
+            {
+                "id": 149737,
+                "description": "New Beginnings",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19026?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19026
+    },
+    "display_order": 71
+}

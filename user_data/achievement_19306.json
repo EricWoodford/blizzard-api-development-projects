@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19306?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19306,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Emerald Dream Glyph Hunter",
+    "description": "Find the following dragon glyphs in the Emerald Dream.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 151067,
+        "description": "Dragonriding Glyphs - Emerald Dream",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 151068,
+                "description": "Dragon Glyphs: Eye of Ysera",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19296?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Eye of Ysera",
+                    "id": 19296
+                }
+            },
+            {
+                "id": 151069,
+                "description": "Dragon Glyphs: Furnace Coil",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19297?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Furnace Coil",
+                    "id": 19297
+                }
+            },
+            {
+                "id": 151070,
+                "description": "Dragon Glyphs: Smoldering Copse",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19298?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Smoldering Copse",
+                    "id": 19298
+                }
+            },
+            {
+                "id": 151071,
+                "description": "Dragon Glyphs: Cinder Summit",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19299?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Cinder Summit",
+                    "id": 19299
+                }
+            },
+            {
+                "id": 151072,
+                "description": "Dragon Glyphs: Dreamsurge Basin",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19300?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Dreamsurge Basin",
+                    "id": 19300
+                }
+            },
+            {
+                "id": 151073,
+                "description": "Dragon Glyphs: Amirdrassil",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19301?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Amirdrassil",
+                    "id": 19301
+                }
+            },
+            {
+                "id": 151074,
+                "description": "Dragon Glyphs: Whorlwing Basin",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19302?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Whorlwing Basin",
+                    "id": 19302
+                }
+            },
+            {
+                "id": 151075,
+                "description": "Dragon Glyphs: Wakeful Vista",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19303?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Glyphs: Wakeful Vista",
+                    "id": 19303
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19306?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19306
+    },
+    "display_order": 1372
+}

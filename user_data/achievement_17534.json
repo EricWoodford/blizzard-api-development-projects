@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17534?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17534,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Explore the Forbidden Reach",
+    "description": "Explore the post-storm Forbidden Reach, revealing the covered areas of the world map.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 143799,
+        "description": "10.0.7 Forbidden Reach - Achievement - Explorer of the Forbidden Reach (ZTO)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 143800,
+                "description": "The War Creche",
+                "amount": 1
+            },
+            {
+                "id": 143801,
+                "description": "Stormsunder Crater",
+                "amount": 1
+            },
+            {
+                "id": 143802,
+                "description": "Morqut Village",
+                "amount": 1
+            },
+            {
+                "id": 143803,
+                "description": "Froststone Vault",
+                "amount": 1
+            },
+            {
+                "id": 143804,
+                "description": "Dragonskull Island",
+                "amount": 1
+            },
+            {
+                "id": 143805,
+                "description": "Caldera of the Menders",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17534?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17534
+    },
+    "display_order": 20
+}

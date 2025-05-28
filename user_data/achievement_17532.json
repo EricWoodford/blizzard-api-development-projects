@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17532?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17532,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Scroll Hunter",
+    "description": "Find treasures from 50 Sealed Scroll maps in the post-storm Forbidden Reach.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 143771,
+        "description": "Map Treasures: Forbidden Reach (50)",
+        "amount": 20,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 143772,
+                "description": null,
+                "amount": 50,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17531?namespace=static-11.1.5_60179-us"
+        },
+        "name": "X Marks the Spot",
+        "id": 17531
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17532?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17532
+    },
+    "display_order": 103
+}

@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18636?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18636,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Just Following Chronological Orders",
+    "description": "Complete 100 tasks for Soridormi while completing Time Rifts.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 147601,
+        "description": "10.1.5 Time Rifts - Achievement - 100 Tasks",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 147602,
+                "description": "Time Rift task completed",
+                "amount": 100,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18636?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18636
+    },
+    "display_order": 158
+}

@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18160?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18160,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15468?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight Raid",
+        "id": 15468
+    },
+    "name": "Aberrus, the Shadowed Crucible",
+    "description": "Defeat the following bosses on any difficulty.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 145503,
+        "description": "Aberrus, the Shadowed Crucible",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 145504,
+                "description": "Kazzara, the Hellforged",
+                "amount": 1
+            },
+            {
+                "id": 145505,
+                "description": "The Amalgamation Chamber",
+                "amount": 1
+            },
+            {
+                "id": 145506,
+                "description": "The Forgotten Experiments",
+                "amount": 1
+            },
+            {
+                "id": 145507,
+                "description": "Assault of the Zaqali",
+                "amount": 1
+            },
+            {
+                "id": 145508,
+                "description": "Rashok, the Elder",
+                "amount": 1
+            },
+            {
+                "id": 145509,
+                "description": "The Vigilant Steward, Zskarn",
+                "amount": 1
+            },
+            {
+                "id": 145510,
+                "description": "Magmorax",
+                "amount": 1
+            },
+            {
+                "id": 145511,
+                "description": "Echo of Neltharion",
+                "amount": 1
+            },
+            {
+                "id": 145512,
+                "description": "Scalecommander Sarkareth",
+                "amount": 1
+            }
+        ]
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18161?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Heroic: Aberrus, the Shadowed Crucible",
+        "id": 18161
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18160?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18160
+    },
+    "display_order": 26
+}

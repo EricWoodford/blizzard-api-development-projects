@@ -1,0 +1,79 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16497?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16497,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "I'm Playing All Sides",
+    "description": "Ensure that you always come out on top by turning in Obsidian Keys to each of these individuals at the Obsidian Citadel.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139381,
+        "description": "Obsidian Keys shared with all",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139382,
+                "description": "Sabellian",
+                "amount": 1
+            },
+            {
+                "id": 139385,
+                "description": "Wrathion",
+                "amount": 1
+            },
+            {
+                "id": 167636,
+                "description": "Igys the Believer",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 139389,
+                        "description": "Igys the Believer",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "id": 167638,
+                "description": "Forgemaster Bazentus",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 139388,
+                        "description": "Forgemaster Bazentus",
+                        "amount": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16497?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16497
+    },
+    "display_order": 58
+}

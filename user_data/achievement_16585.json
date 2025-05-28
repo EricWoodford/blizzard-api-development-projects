@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16585?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16585,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Loremaster of the Dragon Isles",
+    "description": "Complete the Dragon Isles quest achievements listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139372,
+        "description": "Achievement - Loremaster of the Dragon Isles",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139373,
+                "description": "Waking Hope",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16334?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Waking Hope",
+                    "id": 16334
+                }
+            },
+            {
+                "id": 139374,
+                "description": "Sojourner of the Waking Shores",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16401?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sojourner of the Waking Shores",
+                    "id": 16401
+                }
+            },
+            {
+                "id": 139375,
+                "description": "Ohn'a'Roll",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15394?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Ohn'a'Roll",
+                    "id": 15394
+                }
+            },
+            {
+                "id": 139376,
+                "description": "Sojourner of Ohn'ahran Plains",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16405?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sojourner of Ohn'ahran Plains",
+                    "id": 16405
+                }
+            },
+            {
+                "id": 139377,
+                "description": "Azure Spanner",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16336?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Azure Spanner",
+                    "id": 16336
+                }
+            },
+            {
+                "id": 139378,
+                "description": "Sojourner of Azure Span",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16428?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sojourner of Azure Span",
+                    "id": 16428
+                }
+            },
+            {
+                "id": 139379,
+                "description": "Just Don't Ask Me to Spell It",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16363?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Just Don't Ask Me to Spell It",
+                    "id": 16363
+                }
+            },
+            {
+                "id": 139380,
+                "description": "Sojourner of Thaldraszus",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16398?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sojourner of Thaldraszus",
+                    "id": 16398
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16585?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16585
+    },
+    "display_order": 20
+}

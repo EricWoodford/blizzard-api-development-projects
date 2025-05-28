@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18958?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18958,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Of the Tyr's Guard",
+    "description": "Complete Tyr's storyline in the Dragon Isles.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 149507,
+        "description": "Complete \"Time to Process\"",
+        "amount": 0
+    },
+    "reward_description": "Title: of the Tyr's Guard",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18958?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18958
+    },
+    "display_order": 94
+}

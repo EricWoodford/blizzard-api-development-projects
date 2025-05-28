@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19466?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19466,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Oh My God, They Were Clutchmates",
+    "description": "Complete each of the Dragonflight Reputation achievements listed below.",
+    "points": 40,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 153317,
+        "description": "Complete the following Dragonflight Reputation Achievements below.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 153318,
+                "description": "A True Explorer",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41174?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "A True Explorer",
+                    "id": 41174
+                }
+            },
+            {
+                "id": 153319,
+                "description": "Joining the Khansguard",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41180?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Joining the Khansguard",
+                    "id": 41180
+                }
+            },
+            {
+                "id": 153320,
+                "description": "Joining the Community",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41181?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Joining the Community",
+                    "id": 41181
+                }
+            },
+            {
+                "id": 153321,
+                "description": "Ally of the Flights",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41182?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Ally of the Flights",
+                    "id": 41182
+                }
+            },
+            {
+                "id": 153322,
+                "description": "There's No Place Like Loamm",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41183?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "There's No Place Like Loamm",
+                    "id": 41183
+                }
+            },
+            {
+                "id": 153324,
+                "description": "Warden of the Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/41177?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Warden of the Dream",
+                    "id": 41177
+                }
+            },
+            {
+                "id": 153325,
+                "description": "Legend of the Multiverse",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18615?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Legend of the Multiverse",
+                    "id": 18615
+                }
+            },
+            {
+                "id": 153326,
+                "description": "Loyalty to the Prince",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16494?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Loyalty to the Prince",
+                    "id": 16494
+                }
+            },
+            {
+                "id": 153327,
+                "description": "The Obsidian Bloodline",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16760?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Obsidian Bloodline",
+                    "id": 16760
+                }
+            },
+            {
+                "id": 153328,
+                "description": "In High Esteem",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16539?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "In High Esteem",
+                    "id": 16539
+                }
+            },
+            {
+                "id": 153329,
+                "description": "Maximum Power!",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16537?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Maximum Power!",
+                    "id": 16537
+                }
+            },
+            {
+                "id": 153330,
+                "description": "Winterpelt Conversationalist",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17427?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Winterpelt Conversationalist",
+                    "id": 17427
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19466?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19466
+    },
+    "display_order": 1
+}

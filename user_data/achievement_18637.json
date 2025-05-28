@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18637?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18637,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Chronograde Connoisseur",
+    "description": "Defeat all Fractured Causalities in a variety of different realities during Time Rifts.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 147603,
+        "description": "10.1.5 Time Rifts - Achievement - All Bosses",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 147604,
+                "description": "Azmerloth",
+                "amount": 1
+            },
+            {
+                "id": 147605,
+                "description": "Ulderoth",
+                "amount": 1
+            },
+            {
+                "id": 147606,
+                "description": "Azmourne",
+                "amount": 1
+            },
+            {
+                "id": 147607,
+                "description": "Azewrath",
+                "amount": 1
+            },
+            {
+                "id": 147608,
+                "description": "Azq'roth",
+                "amount": 1
+            },
+            {
+                "id": 147609,
+                "description": "The Warlands",
+                "amount": 1
+            },
+            {
+                "id": 147610,
+                "description": "A.Z.E.R.O.T.H.",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18637?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18637
+    },
+    "display_order": 159
+}

@@ -1,0 +1,57 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17540?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17540,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Under the Weather",
+    "description": "Complete a Froststone Vault Primal Storm of every element.",
+    "points": 15,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 143863,
+        "description": "Storms Completed:",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 143864,
+                "description": "Air",
+                "amount": 1
+            },
+            {
+                "id": 143865,
+                "description": "Earth",
+                "amount": 1
+            },
+            {
+                "id": 143866,
+                "description": "Fire",
+                "amount": 1
+            },
+            {
+                "id": 143867,
+                "description": "Water",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17540?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17540
+    },
+    "display_order": 19
+}

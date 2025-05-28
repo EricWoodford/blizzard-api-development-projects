@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16268?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16268,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15467?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight Dungeon",
+        "id": 15467
+    },
+    "name": "Mythic: Ruby Life Pools",
+    "description": "Defeat Kyrakka and Erkhart Stormvein in Ruby Life Pools on Mythic or Mythic Keystone difficulty.",
+    "points": 10,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 137393,
+        "description": "Defeat Kyrakka and Erkhart Stormvein (Mythic+)",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16267?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Heroic: Ruby Life Pools",
+        "id": 16267
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16268?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16268
+    },
+    "display_order": 15
+}

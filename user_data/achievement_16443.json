@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16443?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16443,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Soupervisor",
+    "description": "Complete 100 tasks at the Community Feast in Iskaara.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138540,
+        "description": "10.0 Tuskarr Feast Achievement - Soupervisor - PRK",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138541,
+                "description": "Complete a Cooking Task",
+                "amount": 100,
+                "show_progress_bar": true
+            }
+        ],
+        "show_progress_bar": true
+    },
+    "reward_description": "Title: Soupervisor",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16443?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16443
+    },
+    "display_order": 44
+}

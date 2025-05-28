@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16494?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16494,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Loyalty to the Prince",
+    "description": "Reach the maximum friendship with Wrathion at the Obsidian Throne.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139397,
+        "description": "Maximum friendship with Wrathion.",
+        "amount": 1
+    },
+    "reward_description": "Title: Agent of the Black Prince",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16494?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16494
+    },
+    "display_order": 33
+}

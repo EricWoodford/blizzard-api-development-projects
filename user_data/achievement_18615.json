@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/18615?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 18615,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Legend of the Multiverse",
+    "description": "Reach the \"Legend of the Multiverse\" friendship rank with Soridormi.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 147510,
+        "description": "10.1.5 Time Rifts - Achievement - Max Rep",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/18615?namespace=static-11.1.5_60179-us"
+        },
+        "id": 18615
+    },
+    "display_order": 161
+}

@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16481?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16481,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Sandstorms in The Azure Span",
+    "description": "Defeat creatures empowered with elemental earth during a storm event in The Azure Span.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138699,
+        "description": "Defeat earth imbued creatures in the Azure Span.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138700,
+                "description": null,
+                "amount": 200,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16481?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16481
+    },
+    "display_order": 91
+}

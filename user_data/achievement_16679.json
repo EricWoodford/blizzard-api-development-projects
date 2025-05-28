@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16679?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16679,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Adventurer of Thaldraszus",
+    "description": "Complete 10 of the following special encounters in Thaldraszus.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139819,
+        "description": "Adventurer's Journey: Thaldraszus",
+        "amount": 10,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 139820,
+                "description": "Razk'vex the Untamed",
+                "amount": 1
+            },
+            {
+                "id": 139821,
+                "description": "Innumerable Ruination",
+                "amount": 1
+            },
+            {
+                "id": 139822,
+                "description": "Blightpaw the Depraved",
+                "amount": 1
+            },
+            {
+                "id": 139823,
+                "description": "Pleasant Alpha",
+                "amount": 1
+            },
+            {
+                "id": 139824,
+                "description": "Goremaul the Gluttonous",
+                "amount": 1
+            },
+            {
+                "id": 139825,
+                "description": "Phenran",
+                "amount": 1
+            },
+            {
+                "id": 139826,
+                "description": "Matriarch Remalla",
+                "amount": 1
+            },
+            {
+                "id": 139827,
+                "description": "Phleep",
+                "amount": 1
+            },
+            {
+                "id": 139828,
+                "description": "Tempestrian",
+                "amount": 1
+            },
+            {
+                "id": 139829,
+                "description": "Treasure-Mad Trambladd",
+                "amount": 1
+            },
+            {
+                "id": 139830,
+                "description": "Eldoren the Reborn",
+                "amount": 1
+            },
+            {
+                "id": 139831,
+                "description": "Riverwalker Tamopo",
+                "amount": 1
+            },
+            {
+                "id": 139832,
+                "description": "Broodweaver Araznae",
+                "amount": 1
+            },
+            {
+                "id": 139833,
+                "description": "Sandana the Tempest",
+                "amount": 1
+            },
+            {
+                "id": 139834,
+                "description": "Rokmur",
+                "amount": 1
+            },
+            {
+                "id": 139835,
+                "description": "Woolfang",
+                "amount": 1
+            },
+            {
+                "id": 139836,
+                "description": "The Weeping Vilomah",
+                "amount": 1
+            },
+            {
+                "id": 139837,
+                "description": "Craggravated Elemental",
+                "amount": 1
+            },
+            {
+                "id": 139838,
+                "description": "The Great Shellkhan",
+                "amount": 1
+            },
+            {
+                "id": 139839,
+                "description": "Corrupted Proto-Dragon",
+                "amount": 1
+            },
+            {
+                "id": 139840,
+                "description": "Lord Epochbrgl",
+                "amount": 1
+            },
+            {
+                "id": 139841,
+                "description": "Ancient Protector",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16679?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16679
+    },
+    "display_order": 25
+}

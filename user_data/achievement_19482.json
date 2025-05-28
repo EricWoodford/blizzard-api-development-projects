@@ -1,0 +1,141 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19482?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19482,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Army of the Fed",
+    "description": "Aid the Iskaara Tuskarr by completing the achievements below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 153419,
+        "description": "Aid the Iskaara Tuskarr by completing the achievements below.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 153420,
+                "description": "Soupervisor",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16443?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Soupervisor",
+                    "id": 16443
+                }
+            },
+            {
+                "id": 153421,
+                "description": "Leftovers' Revenge",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16444?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Leftovers' Revenge",
+                    "id": 16444
+                }
+            },
+            {
+                "id": 153422,
+                "description": "Secret Fishing Spots",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16317?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Secret Fishing Spots",
+                    "id": 16317
+                }
+            },
+            {
+                "id": 153423,
+                "description": "Taking From Nature",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16553?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Taking From Nature",
+                    "id": 16553
+                }
+            },
+            {
+                "id": 153424,
+                "description": "We're Going to Need a Bigger Harpoon",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16563?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "We're Going to Need a Bigger Harpoon",
+                    "id": 16563
+                }
+            },
+            {
+                "id": 153425,
+                "description": "Lend a Helping Span",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16580?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Lend a Helping Span",
+                    "id": 16580
+                }
+            },
+            {
+                "id": 153426,
+                "description": "Adventurer of The Azure Span",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16678?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Adventurer of The Azure Span",
+                    "id": 16678
+                }
+            },
+            {
+                "id": 153427,
+                "description": "Treasures of The Azure Span",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16300?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Treasures of The Azure Span",
+                    "id": 16300
+                }
+            }
+        ]
+    },
+    "reward_description": "Mount: Bestowed Trawling Mammoth",
+    "reward_item": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/192788?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Bestowed Trawling Mammoth",
+        "id": 192788
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19482?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19482
+    },
+    "display_order": 5
+}

@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19312?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19312,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Super Duper Bloom",
+    "description": "Complete a Superbloom at epic bloom quality.",
+    "points": 5,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 151255,
+        "description": "Complete tracking quest: tier 3 superbloom",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19312?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19312
+    },
+    "display_order": 61
+}

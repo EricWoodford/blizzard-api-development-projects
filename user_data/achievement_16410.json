@@ -1,0 +1,44 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16410?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16410,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Siege on Dragonbane Keep: Snack Attack",
+    "description": "During stage 1 of the scenario Siege on Dragonbane Keep, feed Beef 20 Beef snacks.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138391,
+        "description": "10.0 Achievement - Siege on Dragonbane Keep: Swog Snacks (LQM)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138392,
+                "description": null,
+                "amount": 20,
+                "show_progress_bar": true
+            }
+        ],
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16410?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16410
+    },
+    "display_order": 31
+}

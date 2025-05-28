@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41177?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41177,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Warden of the Dream",
+    "description": "Reach rank 20 renown with the Dream Wardens.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 150863,
+        "description": "10.2 Renown - Dream Wardens - Rank 20 - Account",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 150962,
+                "description": null,
+                "amount": 20,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41176?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Friends in the Dream",
+        "id": 41176
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41177?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41177
+    },
+    "display_order": 41
+}

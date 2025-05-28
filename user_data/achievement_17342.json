@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17342?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17342,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "The Future We Make",
+    "description": "Kill each of the Primalist monsters in the Storm's Fury event within the Primalist Future.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 142768,
+        "description": "Kill all of the Primalist monsters that can appear during the Storm's Fury event within the Primalist Future.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 142769,
+                "description": "Glakis, Winter's Wrath",
+                "amount": 1
+            },
+            {
+                "id": 142770,
+                "description": "Nimbulatus, Storm's Wrath",
+                "amount": 1
+            },
+            {
+                "id": 166847,
+                "description": "Seismodor, Earth's Wrath",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17342?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17342
+    },
+    "display_order": 13
+}

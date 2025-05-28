@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19458?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19458,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15301?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Expansion Features",
+        "id": 15301
+    },
+    "name": "A World Awoken",
+    "description": "Usher in the second Age of Dragons by completing the following achievements.",
+    "points": 100,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 153272,
+        "description": "Leave the Dragon Isles better than they were when you found them by completing the following achievements before the release of the next Expansion.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 153273,
+                "description": "Vault of the Incarnates",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16343?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Vault of the Incarnates",
+                    "id": 16343
+                }
+            },
+            {
+                "id": 153274,
+                "description": "Aberrus, the Shadowed Crucible",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18160?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Aberrus, the Shadowed Crucible",
+                    "id": 18160
+                }
+            },
+            {
+                "id": 153275,
+                "description": "Amirdrassil, the Dream's Hope",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19331?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Amirdrassil, the Dream's Hope",
+                    "id": 19331
+                }
+            },
+            {
+                "id": 153276,
+                "description": "Myths of the Dragonflight Dungeons",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16339?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Myths of the Dragonflight Dungeons",
+                    "id": 16339
+                }
+            },
+            {
+                "id": 153277,
+                "description": "Loremaster of the Dragon Isles",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16585?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Loremaster of the Dragon Isles",
+                    "id": 16585
+                }
+            },
+            {
+                "id": 153278,
+                "description": "Friend of the Dragon Isles",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16808?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Friend of the Dragon Isles",
+                    "id": 16808
+                }
+            },
+            {
+                "id": 153279,
+                "description": "Dragon Quests",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19463?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Quests",
+                    "id": 19463
+                }
+            },
+            {
+                "id": 153280,
+                "description": "Oh My God, They Were Clutchmates",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19466?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Oh My God, They Were Clutchmates",
+                    "id": 19466
+                }
+            },
+            {
+                "id": 153281,
+                "description": "Dragon Isles Pathfinder",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19307?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Isles Pathfinder",
+                    "id": 19307
+                }
+            },
+            {
+                "id": 153282,
+                "description": "Across the Isles",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19486?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Across the Isles",
+                    "id": 19486
+                }
+            },
+            {
+                "id": 153283,
+                "description": "You Know How to Reach Me",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17543?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "You Know How to Reach Me",
+                    "id": 17543
+                }
+            },
+            {
+                "id": 153284,
+                "description": "Que Zara(lek), Zara(lek)",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17785?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Que Zara(lek), Zara(lek)",
+                    "id": 17785
+                }
+            },
+            {
+                "id": 153285,
+                "description": "Dream On",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19318?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dream On",
+                    "id": 19318
+                }
+            },
+            {
+                "id": 153286,
+                "description": "Now THIS is Dragon Racing!",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19478?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Now THIS is Dragon Racing!",
+                    "id": 19478
+                }
+            }
+        ]
+    },
+    "reward_description": "Mount: Taivan",
+    "reward_item": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/210142?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Good Boy's Leash",
+        "id": 210142
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19458?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19458
+    },
+    "display_order": 6
+}

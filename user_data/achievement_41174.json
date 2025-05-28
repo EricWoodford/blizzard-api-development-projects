@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41174?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41174,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "A True Explorer",
+    "description": "Reach Renown level 25 with the Dragonscale Expedition.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138930,
+        "description": "10.0 Renown - Dragonscale Expedition - Rank 25v2",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138931,
+                "description": null,
+                "amount": 25,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41174?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41174
+    },
+    "display_order": 37
+}

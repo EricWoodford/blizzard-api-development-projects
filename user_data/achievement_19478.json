@@ -1,0 +1,170 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19478?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19478,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Now THIS is Dragon Racing!",
+    "description": "Complete each of the Dragonriding achievements listed below.",
+    "points": 30,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 153389,
+        "description": "Complete each of the Dragonriding achievements listed below.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 153390,
+                "description": "Dragon Racing Completionist: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15939?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Dragon Racing Completionist: Bronze",
+                    "id": 15939
+                }
+            },
+            {
+                "id": 153391,
+                "description": "Forbidden Reach Racing Completionist",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17294?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Forbidden Reach Racing Completionist",
+                    "id": 17294
+                }
+            },
+            {
+                "id": 153392,
+                "description": "Zaralek Cavern Racing Completionist",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17492?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zaralek Cavern Racing Completionist",
+                    "id": 17492
+                }
+            },
+            {
+                "id": 153393,
+                "description": "Emerald Dream Racing Completionist",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19118?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Dream Racing Completionist",
+                    "id": 19118
+                }
+            },
+            {
+                "id": 153394,
+                "description": "Waking Shores Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16575?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Waking Shores Glyph Hunter",
+                    "id": 16575
+                }
+            },
+            {
+                "id": 153395,
+                "description": "Ohn'ahran Plains Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16576?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Ohn'ahran Plains Glyph Hunter",
+                    "id": 16576
+                }
+            },
+            {
+                "id": 153396,
+                "description": "Azure Span Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16577?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Azure Span Glyph Hunter",
+                    "id": 16577
+                }
+            },
+            {
+                "id": 153397,
+                "description": "Thaldraszus Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16578?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Thaldraszus Glyph Hunter",
+                    "id": 16578
+                }
+            },
+            {
+                "id": 153398,
+                "description": "Forbidden Reach Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17411?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Forbidden Reach Glyph Hunter",
+                    "id": 17411
+                }
+            },
+            {
+                "id": 153399,
+                "description": "Zaralek Cavern Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18150?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zaralek Cavern Glyph Hunter",
+                    "id": 18150
+                }
+            },
+            {
+                "id": 153400,
+                "description": "Emerald Dream Glyph Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19306?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Dream Glyph Hunter",
+                    "id": 19306
+                }
+            }
+        ]
+    },
+    "reward_description": "Drake Customization: Grotto Netherwing Drake - Black Scales",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19478?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19478
+    },
+    "display_order": 2
+}

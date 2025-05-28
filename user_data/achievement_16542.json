@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16542?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16542,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "The Disgruntled Hunter",
+    "description": "Find the disgruntled hunter near every Grand Hunt.",
+    "points": 15,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139008,
+        "description": "Find every location of the disgruntled hunter",
+        "amount": 11,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139009,
+                "description": "Northern Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139036,
+                "description": "Western Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139037,
+                "description": "Eastern Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139038,
+                "description": "Southern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139039,
+                "description": "Eastern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139040,
+                "description": "Northern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139041,
+                "description": "Western Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139042,
+                "description": "Eastern Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139043,
+                "description": "Southern Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139044,
+                "description": "Southern Thaldraszus Hunt",
+                "amount": 1
+            },
+            {
+                "id": 139045,
+                "description": "Northern Thaldraszus Hunt",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16542?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16542
+    },
+    "display_order": 66
+}

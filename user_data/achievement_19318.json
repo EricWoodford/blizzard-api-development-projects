@@ -1,0 +1,110 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19318?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19318,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Dream On",
+    "description": "Complete the following achievements:",
+    "points": 25,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 151296,
+        "description": "Dream On",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 151297,
+                "description": "Defenders of the Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19026?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Defenders of the Dream",
+                    "id": 19026
+                }
+            },
+            {
+                "id": 151298,
+                "description": "Adventurer of the Emerald Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19316?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Adventurer of the Emerald Dream",
+                    "id": 19316
+                }
+            },
+            {
+                "id": 151299,
+                "description": "Treasures of the Emerald Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19317?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Treasures of the Emerald Dream",
+                    "id": 19317
+                }
+            },
+            {
+                "id": 151301,
+                "description": "I Dream of Seeds",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19013?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "I Dream of Seeds",
+                    "id": 19013
+                }
+            },
+            {
+                "id": 151325,
+                "description": "Explore the Emerald Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19309?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore the Emerald Dream",
+                    "id": 19309
+                }
+            },
+            {
+                "id": 151371,
+                "description": "Super Duper Bloom",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19312?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Super Duper Bloom",
+                    "id": 19312
+                }
+            }
+        ]
+    },
+    "reward_description": "Title: of the Emerald Dream",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19318?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19318
+    },
+    "display_order": 4
+}

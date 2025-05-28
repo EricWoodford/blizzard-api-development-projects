@@ -1,0 +1,62 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16553?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16553,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Taking From Nature",
+    "description": "Unlock 5 different fishing nets in Tuskarr Fishing Holes.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139174,
+        "description": "Unlock 5 different fishing nets in Tuskarr Fishing Holes.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139175,
+                "description": "River Mouth Fishing Hole Net",
+                "amount": 0
+            },
+            {
+                "id": 139176,
+                "description": "Grimtusk's Fishing Hole Net",
+                "amount": 0
+            },
+            {
+                "id": 139177,
+                "description": "Roaring Dragonspring Fishing Hole Net",
+                "amount": 0
+            },
+            {
+                "id": 139178,
+                "description": "Tyrhold Fishing Hole Net",
+                "amount": 0
+            },
+            {
+                "id": 139179,
+                "description": "Burning Ascent Fishing Hole Net",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16553?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16553
+    },
+    "display_order": 24
+}

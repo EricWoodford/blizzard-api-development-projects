@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16398?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16398,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Sojourner of Thaldraszus",
+    "description": "Complete the optional Thaldraszus storylines listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138319,
+        "description": "10.0 Thaldraszus Side Questlines",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138320,
+                "description": "Gelikyr Overlook",
+                "amount": 0
+            },
+            {
+                "id": 138321,
+                "description": "Drawing Conclusions",
+                "amount": 0
+            },
+            {
+                "id": 138322,
+                "description": "The Screetchflight Scramble",
+                "amount": 0
+            },
+            {
+                "id": 138323,
+                "description": "Gardens of Unity",
+                "amount": 0
+            },
+            {
+                "id": 138324,
+                "description": "Tyrhold Reservoir",
+                "amount": 0
+            },
+            {
+                "id": 138325,
+                "description": "Bleeding Hearts",
+                "amount": 0
+            },
+            {
+                "id": 138326,
+                "description": "Serene Dreams Spa",
+                "amount": 0
+            },
+            {
+                "id": 138327,
+                "description": "Misty Vale",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16398?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16398
+    },
+    "display_order": 25
+}

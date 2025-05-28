@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17526?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17526,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Treasures of the Forbidden Reach",
+    "description": "Discover the hidden treasures within the post-storm Forbidden Reach.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 143732,
+        "description": "Unique Treasures: Forbidden Reach",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 143733,
+                "description": "Forbidden Hoard",
+                "amount": 1
+            },
+            {
+                "id": 143734,
+                "description": "Avian Trove",
+                "amount": 1
+            },
+            {
+                "id": 143735,
+                "description": "Obsidian Coffer",
+                "amount": 1
+            },
+            {
+                "id": 143736,
+                "description": "Spellsworn Reserves",
+                "amount": 1
+            },
+            {
+                "id": 143737,
+                "description": "Bone Pile",
+                "amount": 1
+            },
+            {
+                "id": 143738,
+                "description": "Farscale Cache",
+                "amount": 1
+            },
+            {
+                "id": 143739,
+                "description": "Irontide Stash",
+                "amount": 1
+            },
+            {
+                "id": 143740,
+                "description": "Storm-Eater Cairn",
+                "amount": 1
+            },
+            {
+                "id": 143741,
+                "description": "Stonescaled Cairn",
+                "amount": 1
+            },
+            {
+                "id": 143742,
+                "description": "Blazing Cairn",
+                "amount": 1
+            },
+            {
+                "id": 143743,
+                "description": "Frozenheart Cairn",
+                "amount": 1
+            },
+            {
+                "id": 143744,
+                "description": "Morqut Provisions",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17526?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17526
+    },
+    "display_order": 36
+}

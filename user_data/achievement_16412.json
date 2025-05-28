@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16412?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16412,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Siege on Dragonbane Keep: Chiseled Record",
+    "description": "In Dragonbane Keep, find all of the djaradin tablets.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138395,
+        "description": "10.0 Achievement - Siege on Dragonbane Keep: Chiseled Record",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138396,
+                "description": "Complaint to Scalepiercer",
+                "amount": 1
+            },
+            {
+                "id": 138397,
+                "description": "Wyrmeater's Recipe",
+                "amount": 1
+            },
+            {
+                "id": 138398,
+                "description": "The Grand Flame's Journal",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16412?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16412
+    },
+    "display_order": 30
+}

@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16588?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16588,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "How Did These Get Here?",
+    "description": "Collect 10 Lost Supplies during climbing World Quests.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139446,
+        "description": "Collect 10 Hidden Supplies",
+        "amount": 10,
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16588?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16588
+    },
+    "display_order": 11
+}

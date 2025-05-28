@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16543?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16543,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Tetrachromancer",
+    "description": "Collect all hunting companion colors.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139231,
+        "description": "Collect all hunt companion colors",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139232,
+                "description": "Bakar Companion Color: Brown",
+                "amount": 1
+            },
+            {
+                "id": 139233,
+                "description": "Bakar Companion Color: White",
+                "amount": 1
+            },
+            {
+                "id": 139234,
+                "description": "Bakar Companion Color: Orange",
+                "amount": 1
+            },
+            {
+                "id": 139235,
+                "description": "Bakar Companion Color: Golden Brown",
+                "amount": 1
+            },
+            {
+                "id": 139236,
+                "description": "Bakar Companion Color: Black",
+                "amount": 1
+            },
+            {
+                "id": 139237,
+                "description": "Ohuna Companion Color: Red",
+                "amount": 1
+            },
+            {
+                "id": 139238,
+                "description": "Ohuna Companion Color: Dark",
+                "amount": 1
+            },
+            {
+                "id": 139239,
+                "description": "Ohuna Companion Color: Sepia",
+                "amount": 1
+            },
+            {
+                "id": 139240,
+                "description": "Ohuna Companion Color: Brown",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16543?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16543
+    },
+    "display_order": 63
+}

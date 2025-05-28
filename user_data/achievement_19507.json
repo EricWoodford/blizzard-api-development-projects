@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19507?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19507,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Fringe Benefits",
+    "description": "Complete 8 of the following daily quests in Eon's Fringe.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 153552,
+        "description": "Complete 8 of the following daily quests in Eon's Fringe.",
+        "amount": 8,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 153553,
+                "description": "Lost Time-Lost Vikings",
+                "amount": 1
+            },
+            {
+                "id": 153554,
+                "description": "Time-Lost Trio",
+                "amount": 1
+            },
+            {
+                "id": 153555,
+                "description": "Small Things",
+                "amount": 1
+            },
+            {
+                "id": 153556,
+                "description": "Missing Mojo",
+                "amount": 1
+            },
+            {
+                "id": 153557,
+                "description": "Prince in Peril",
+                "amount": 1
+            },
+            {
+                "id": 153558,
+                "description": "Tracked Through Time",
+                "amount": 1
+            },
+            {
+                "id": 153559,
+                "description": "Squeaky Toy of Time and Space",
+                "amount": 1
+            },
+            {
+                "id": 153560,
+                "description": "Lucky Hearthstone Card",
+                "amount": 1
+            },
+            {
+                "id": 153561,
+                "description": "What Could Have Been",
+                "amount": 1
+            },
+            {
+                "id": 153562,
+                "description": "Fowl Beasts",
+                "amount": 1
+            },
+            {
+                "id": 153564,
+                "description": "Manastorm Mystique",
+                "amount": 1
+            },
+            {
+                "id": 153565,
+                "description": "A Multitude of Tasks",
+                "amount": 1
+            },
+            {
+                "id": 153566,
+                "description": "A Mislaid Egg",
+                "amount": 1
+            },
+            {
+                "id": 153567,
+                "description": "Woolomancer",
+                "amount": 1
+            },
+            {
+                "id": 153568,
+                "description": "The Black Prince Parade",
+                "amount": 1
+            },
+            {
+                "id": 153572,
+                "description": "Star-Crossed Lovers",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19507?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19507
+    },
+    "display_order": 69
+}

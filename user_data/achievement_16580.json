@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16580?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16580,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Lend a Helping Span",
+    "description": "Complete the optional quests from Camp Antonidas, Iskaara, and Three Falls Lookout listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 139338,
+        "description": "10.0 Azure - Hub Quests",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 139339,
+                "description": "WANTED: Frigellus",
+                "amount": 0
+            },
+            {
+                "id": 139340,
+                "description": "Tending the Forge",
+                "amount": 0
+            },
+            {
+                "id": 139341,
+                "description": "Setting the Defense",
+                "amount": 0
+            },
+            {
+                "id": 139342,
+                "description": "Send It!",
+                "amount": 0
+            },
+            {
+                "id": 139343,
+                "description": "For The Love of Others",
+                "amount": 0
+            },
+            {
+                "id": 139344,
+                "description": "Fishing: Aileron Seamoth",
+                "amount": 0
+            },
+            {
+                "id": 139345,
+                "description": "The Weave of a Tale",
+                "amount": 0
+            },
+            {
+                "id": 139346,
+                "description": "WANTED: Krojek the Shoreprowler",
+                "amount": 0
+            },
+            {
+                "id": 139347,
+                "description": "Can We Keep It?",
+                "amount": 0
+            },
+            {
+                "id": 139348,
+                "description": "Toejam the Terrible",
+                "amount": 0
+            },
+            {
+                "id": 139349,
+                "description": "Nothing for Breakfast",
+                "amount": 0
+            },
+            {
+                "id": 139350,
+                "description": "It's Cold Up Here",
+                "amount": 0
+            },
+            {
+                "id": 139351,
+                "description": "It's Brew Time!",
+                "amount": 0
+            },
+            {
+                "id": 139352,
+                "description": "Out of Lukh",
+                "amount": 0
+            },
+            {
+                "id": 139353,
+                "description": "The Great Shokhari",
+                "amount": 0
+            },
+            {
+                "id": 139354,
+                "description": "The Heart of the Deck",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16580?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16580
+    },
+    "display_order": 27
+}

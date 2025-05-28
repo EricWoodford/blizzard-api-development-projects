@@ -1,0 +1,568 @@
+[
+    {
+        "id": 17427,
+        "name": "Winterpelt Conversationalist",
+        "description": "Reach 100 skill in the Winterpelt language. Allows you to chat in Winterpelt!",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17427&criteria=143509 target=\"_blank\">Achieve rank 100 in the Winterpelt language.</a>",
+                "amount": 34
+            }
+        ]
+    },
+    {
+        "id": 16297,
+        "name": "Treasures of The Waking Shores",
+        "description": "Discover the hidden treasures within the Waking Shores.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16297&criteria=137553 target=\"_blank\">Ruby Gem Cluster</a>"
+            }
+        ]
+    },
+    {
+        "id": 16540,
+        "name": "Hunt Master",
+        "description": "Complete every Grand Hunt in the Dragon Isles.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16540&criteria=138958 target=\"_blank\">Southern Waking Shores Hunt</a>"
+            }
+        ]
+    },
+    {
+        "id": 16542,
+        "name": "The Disgruntled Hunter",
+        "description": "Find the disgruntled hunter near every Grand Hunt.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139009 target=\"_blank\">Northern Ohn'ahran Plains Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139036 target=\"_blank\">Western Ohn'ahran Plains Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139037 target=\"_blank\">Eastern Ohn'ahran Plains Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139038 target=\"_blank\">Southern Waking Shores Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139039 target=\"_blank\">Eastern Waking Shores Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139040 target=\"_blank\">Northern Waking Shores Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139041 target=\"_blank\">Western Azure Span Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139042 target=\"_blank\">Eastern Azure Span Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139043 target=\"_blank\">Southern Azure Span Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139044 target=\"_blank\">Southern Thaldraszus Hunt</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16542&criteria=139045 target=\"_blank\">Northern Thaldraszus Hunt</a>"
+            }
+        ]
+    },
+    {
+        "id": 16424,
+        "name": "Who's a Good Bakar?",
+        "description": "Pet all of the bakar in the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138478 target=\"_blank\">Baga</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138466 target=\"_blank\">Elaichi</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138477 target=\"_blank\">Nahma</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138508 target=\"_blank\">Soyoo</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138474 target=\"_blank\">Taivan</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16424&criteria=138467 target=\"_blank\">Tseg</a>"
+            }
+        ]
+    },
+    {
+        "id": 16299,
+        "name": "Treasures of the Ohn'ahran Plains",
+        "description": "Discover the hidden treasures within the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16299&criteria=137560 target=\"_blank\">Nokhud Warspear</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16299&criteria=137562 target=\"_blank\">Emerald Gem Cluster</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16299&criteria=137564 target=\"_blank\">Gold Swog Coin</a>"
+            }
+        ]
+    },
+    {
+        "id": 16553,
+        "name": "Taking From Nature",
+        "description": "Unlock 5 different fishing nets in Tuskarr Fishing Holes.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16553&criteria=139176 target=\"_blank\">Grimtusk's Fishing Hole Net</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16553&criteria=139177 target=\"_blank\">Roaring Dragonspring Fishing Hole Net</a>"
+            }
+        ]
+    },
+    {
+        "id": 16300,
+        "name": "Treasures of The Azure Span",
+        "description": "Discover the hidden treasures within the Azure Span.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16300&criteria=137699 target=\"_blank\">Forgotten Jewel Box</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16300&criteria=137700 target=\"_blank\">Gnoll Fiend Flail</a>"
+            }
+        ]
+    },
+    {
+        "id": 16412,
+        "name": "Siege on Dragonbane Keep: Chiseled Record",
+        "description": "In Dragonbane Keep, find all of the djaradin tablets.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16412&criteria=138396 target=\"_blank\">Complaint to Scalepiercer</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16412&criteria=138397 target=\"_blank\">Wyrmeater's Recipe</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16412&criteria=138398 target=\"_blank\">The Grand Flame's Journal</a>"
+            }
+        ]
+    },
+    {
+        "id": 16497,
+        "name": "I'm Playing All Sides",
+        "description": "Ensure that you always come out on top by turning in Obsidian Keys to each of these individuals at the Obsidian Citadel.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16497&criteria=139382 target=\"_blank\">Sabellian</a>",
+                "amount": 0
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16497&criteria=139385 target=\"_blank\">Wrathion</a>",
+                "amount": 0
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16497&criteria=167638 target=\"_blank\">Forgemaster Bazentus</a>",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": 16496,
+        "name": "Obsidian Champion",
+        "description": "Complete the following special encounters at the Obsidian Citadel and adjacent lava fields.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16496&criteria=139393 target=\"_blank\">Forging the Answer</a>"
+            }
+        ]
+    },
+    {
+        "id": 18384,
+        "name": "Whelp, There It Is",
+        "description": "Help care for whelplings at Little Scales Daycare by completing the following quests.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146433 target=\"_blank\">Arts and Crafts and Baths</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146437 target=\"_blank\">Scanning the Stacks</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146438 target=\"_blank\">Cozy Camouflage</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146439 target=\"_blank\">Eternal Escapades</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146442 target=\"_blank\">Zhoomsa</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146443 target=\"_blank\">Zaleth on the Go</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18384&criteria=146444 target=\"_blank\">Pole Position Posidriss</a>"
+            }
+        ]
+    },
+    {
+        "id": 17782,
+        "name": "Daycare Derby",
+        "description": "Participate in every Little Scales Daycare Whelp Race.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17782&criteria=144855 target=\"_blank\">Zaleth on the Go</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17782&criteria=144856 target=\"_blank\">Zhoomsa</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17782&criteria=144857 target=\"_blank\">Pole Position Posidriss</a>"
+            }
+        ]
+    },
+    {
+        "id": 18383,
+        "name": "Hey Nanny Nanny",
+        "description": "Tend to the needs of five newly hatched whelplings at Little Scales Daycare.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18383&criteria=146427 target=\"_blank\">Zalethgos</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18383&criteria=146428 target=\"_blank\">Posidriss</a>"
+            }
+        ]
+    },
+    {
+        "id": 16301,
+        "name": "Treasures of Thaldraszus",
+        "description": "Discover the hidden treasures within Thaldraszus.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16301&criteria=137706 target=\"_blank\">Cracked Hourglass</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16301&criteria=137708 target=\"_blank\">Amber Gem Cluster</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16301&criteria=137709 target=\"_blank\">Elegant Canvas Brush</a>"
+            }
+        ]
+    },
+    {
+        "id": 16463,
+        "name": "Thunderstorms in The Waking Shores",
+        "description": "Defeat creatures empowered with elemental air during a storm event in The Waking Shores.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16463&criteria=138660 target=\"_blank\">Defeat air imbued creatures within the Waking Shores.</a>",
+                "amount": 147
+            }
+        ]
+    },
+    {
+        "id": 16465,
+        "name": "Sandstorms in The Waking Shores",
+        "description": "Defeat creatures empowered with elemental earth during a storm event in The Waking Shores.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16465&criteria=138668 target=\"_blank\">Defeat earth imbued creatures within the Waking Shores.</a>",
+                "amount": 164
+            }
+        ]
+    },
+    {
+        "id": 16466,
+        "name": "Firestorms in The Waking Shores",
+        "description": "Defeat creatures empowered with elemental fire during a storm event in The Waking Shores.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16466&criteria=138674 target=\"_blank\">Defeat fire imbued creatures within the Waking Shores.</a>",
+                "amount": 122
+            }
+        ]
+    },
+    {
+        "id": 16467,
+        "name": "Snowstorms in The Waking Shores",
+        "description": "Defeat creatures empowered with elemental water during a storm event in The Waking Shores.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16467&criteria=138676 target=\"_blank\">Defeat water imbued creatures within the Waking Shores.</a>",
+                "amount": 193
+            }
+        ]
+    },
+    {
+        "id": 16475,
+        "name": "Thunderstorms in the Ohn'ahran Plains",
+        "description": "Defeat creatures empowered with elemental air during a storm event in the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16475&criteria=138685 target=\"_blank\">None</a>",
+                "amount": 184
+            }
+        ]
+    },
+    {
+        "id": 16477,
+        "name": "Sandstorms in the Ohn'ahran Plains",
+        "description": "Defeat creatures empowered with elemental earth during a storm event in the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16477&criteria=138687 target=\"_blank\">None</a>",
+                "amount": 30
+            }
+        ]
+    },
+    {
+        "id": 16478,
+        "name": "Firestorms in the Ohn'ahran Plains",
+        "description": "Defeat creatures empowered with elemental fire during a storm event in the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16478&criteria=138689 target=\"_blank\">None</a>",
+                "amount": 83
+            }
+        ]
+    },
+    {
+        "id": 16479,
+        "name": "Snowstorms in the Ohn'ahran Plains",
+        "description": "Defeat creatures empowered with elemental water during a storm event in the Ohn'ahran Plains.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16479&criteria=138691 target=\"_blank\">None</a>",
+                "amount": 147
+            }
+        ]
+    },
+    {
+        "id": 16480,
+        "name": "Thunderstorms in The Azure Span",
+        "description": "Defeat creatures empowered with elemental air during a storm event in The Azure Span.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16480&criteria=138698 target=\"_blank\">None</a>",
+                "amount": 122
+            }
+        ]
+    },
+    {
+        "id": 16481,
+        "name": "Sandstorms in The Azure Span",
+        "description": "Defeat creatures empowered with elemental earth during a storm event in The Azure Span.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16481&criteria=138700 target=\"_blank\">None</a>",
+                "amount": 39
+            }
+        ]
+    },
+    {
+        "id": 16482,
+        "name": "Firestorms in The Azure Span",
+        "description": "Defeat creatures empowered with elemental fire during a storm event in The Azure Span.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16482&criteria=138702 target=\"_blank\">None</a>",
+                "amount": 125
+            }
+        ]
+    },
+    {
+        "id": 16483,
+        "name": "Snowstorms in The Azure Span",
+        "description": "Defeat creatures empowered with elemental water during a storm event in The Azure Span.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16483&criteria=138704 target=\"_blank\">None</a>",
+                "amount": 129
+            }
+        ]
+    },
+    {
+        "id": 16485,
+        "name": "Thunderstorms in Thaldraszus",
+        "description": "Defeat creatures empowered with elemental air during a storm event in Thaldraszus.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16485&criteria=138711 target=\"_blank\">None</a>",
+                "amount": 143
+            }
+        ]
+    },
+    {
+        "id": 16486,
+        "name": "Sandstorms in Thaldraszus",
+        "description": "Defeat creatures empowered with elemental earth during a storm event in Thaldraszus.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16486&criteria=138713 target=\"_blank\">None</a>",
+                "amount": 131
+            }
+        ]
+    },
+    {
+        "id": 16487,
+        "name": "Firestorms in Thaldraszus",
+        "description": "Defeat creatures empowered with elemental fire during a storm event in Thaldraszus.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=16487&criteria=138715 target=\"_blank\">None</a>",
+                "amount": 173
+            }
+        ]
+    },
+    {
+        "id": 18209,
+        "name": "Nothing Stops the Research",
+        "description": "Defeat the Sundered Flame leader Captain Reykal during either of the Researchers Under Fire events.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18209&criteria=145697 target=\"_blank\">Captain Reykal defeated</a>",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": 18867,
+        "name": "Through the Ashes and Flames",
+        "description": "Complete the quest \"Suffusion Camp\".",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=18867&criteria=149082 target=\"_blank\">Suffusion Camp</a>",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": 19008,
+        "name": "Dream Shaper",
+        "description": "Complete the quest \"Shaping the Dreamsurge\".",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=19008&criteria=149676 target=\"_blank\">Shaping the Dreamsurge</a>",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": 17526,
+        "name": "Treasures of the Forbidden Reach",
+        "description": "Discover the hidden treasures within the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17526&criteria=143741 target=\"_blank\">Stonescaled Cairn</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17526&criteria=143742 target=\"_blank\">Blazing Cairn</a>"
+            }
+        ]
+    },
+    {
+        "id": 17528,
+        "name": "Hoarder of the Forbidden Reach",
+        "description": "Open 100 small treasures around the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17528&criteria=143758 target=\"_blank\">None</a>",
+                "amount": 24
+            }
+        ]
+    },
+    {
+        "id": 17525,
+        "name": "Champion of the Forbidden Reach",
+        "description": "Complete all of the following special encounters in the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143719 target=\"_blank\">Tectonus</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143721 target=\"_blank\">Manathema</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143722 target=\"_blank\">Snarfang</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143726 target=\"_blank\">Arcantrix</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143729 target=\"_blank\">Agni Blazehoof</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17525&criteria=143731 target=\"_blank\">Amephyst</a>"
+            }
+        ]
+    },
+    {
+        "id": 17529,
+        "name": "Forbidden Spoils",
+        "description": "Open 10 Forbidden Hoards around the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17529&criteria=143760 target=\"_blank\">None</a>",
+                "amount": 6
+            }
+        ]
+    },
+    {
+        "id": 17530,
+        "name": "Librarian of the Reach",
+        "description": "Collect each of the following books found in the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17530&criteria=143765 target=\"_blank\">Return of the Nightsquall</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17530&criteria=143766 target=\"_blank\">Lost Expedition Notes</a>"
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17530&criteria=143767 target=\"_blank\">Words of the Wyrmslayer</a>"
+            }
+        ]
+    },
+    {
+        "id": 17532,
+        "name": "Scroll Hunter",
+        "description": "Find treasures from 50 Sealed Scroll maps in the post-storm Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17532&criteria=143772 target=\"_blank\">None</a>",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": 17540,
+        "name": "Under the Weather",
+        "description": "Complete a Froststone Vault Primal Storm of every element.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17540&criteria=143864 target=\"_blank\">Air</a>"
+            }
+        ]
+    },
+    {
+        "id": 17315,
+        "name": "While We Were Sleeping",
+        "description": "Deliver the following items to the Scalecommanders at the Forbidden Reach.",
+        "criteria": [
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17315&criteria=143335 target=\"_blank\">Journal Entry: Experiments</a>",
+                "amount": 0
+            },
+            {
+                "description": "<a href=https://www.wowhead.com/achievement=17315&criteria=143337 target=\"_blank\">Journal Entry: Relics</a>",
+                "amount": 0
+            }
+        ]
+    }
+]

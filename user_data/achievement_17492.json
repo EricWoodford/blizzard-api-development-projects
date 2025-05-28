@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17492?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17492,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Zaralek Cavern Racing Completionist",
+    "description": "Complete all races in Zaralek Cavern.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 143576,
+        "description": "Zaralek Cavern Dragon Racing Completionist",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 143577,
+                "description": "Zaralek Cavern: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17483?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zaralek Cavern: Bronze",
+                    "id": 17483
+                }
+            },
+            {
+                "id": 143578,
+                "description": "Zaralek Cavern Advanced: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17486?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zaralek Cavern Advanced: Bronze",
+                    "id": 17486
+                }
+            },
+            {
+                "id": 143579,
+                "description": "Zaralek Cavern Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/17489?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zaralek Cavern Reverse: Bronze",
+                    "id": 17489
+                }
+            }
+        ]
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17493?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Zaralek Cavern Racing Completionist: Silver",
+        "id": 17493
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17492?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17492
+    },
+    "display_order": 471
+}

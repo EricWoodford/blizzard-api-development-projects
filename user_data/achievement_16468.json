@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16468?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16468,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Chasing Storms in The Waking Shores",
+    "description": "Complete the Waking Shore storm achievements below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138677,
+        "description": null,
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138678,
+                "description": "Thunderstorms in The Waking Shores",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16463?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Thunderstorms in The Waking Shores",
+                    "id": 16463
+                }
+            },
+            {
+                "id": 138679,
+                "description": "Sandstorms in The Waking Shores",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16465?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sandstorms in The Waking Shores",
+                    "id": 16465
+                }
+            },
+            {
+                "id": 138680,
+                "description": "Firestorms in The Waking Shores",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16466?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Firestorms in The Waking Shores",
+                    "id": 16466
+                }
+            },
+            {
+                "id": 138681,
+                "description": "Snowstorms in The Waking Shores",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/16467?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Snowstorms in The Waking Shores",
+                    "id": 16467
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16468?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16468
+    },
+    "display_order": 79
+}

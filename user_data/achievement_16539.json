@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16539?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16539,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "In High Esteem",
+    "description": "Reach Esteemed reputation with the Artisan's Consortium.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138952,
+        "description": "Artisan's Consortium reputation is at Esteemed (Rank 4)",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16539?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16539
+    },
+    "display_order": 53
+}

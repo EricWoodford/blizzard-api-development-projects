@@ -1,0 +1,116 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19115?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19115,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Emerald Dream Reverse: Bronze",
+    "description": "Complete all reverse races in the Emerald Dream.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 150521,
+        "description": "Emerald Dream Reverse - Bronze",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 150522,
+                "description": "Ysera Invitational Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18949?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Ysera Invitational Reverse: Bronze",
+                    "id": 18949
+                }
+            },
+            {
+                "id": 150523,
+                "description": "Smoldering Sprint Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18984?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Smoldering Sprint Reverse: Bronze",
+                    "id": 18984
+                }
+            },
+            {
+                "id": 150524,
+                "description": "Viridescent Venture Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/18999?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Viridescent Venture Reverse: Bronze",
+                    "id": 18999
+                }
+            },
+            {
+                "id": 150525,
+                "description": "Shoreline Switchback Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19038?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Shoreline Switchback Reverse: Bronze",
+                    "id": 19038
+                }
+            },
+            {
+                "id": 150526,
+                "description": "Canopy Concours Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19053?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Canopy Concours Reverse: Bronze",
+                    "id": 19053
+                }
+            },
+            {
+                "id": 150527,
+                "description": "Emerald Amble Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19068?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Amble Reverse: Bronze",
+                    "id": 19068
+                }
+            }
+        ]
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19116?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Emerald Dream Reverse: Silver",
+        "id": 19116
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19115?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19115
+    },
+    "display_order": 1349
+}

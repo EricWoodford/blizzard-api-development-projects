@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17766?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17766,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Explore Zaralek Cavern",
+    "description": "Explore Zaralek Cavern, revealing the covered areas of the world map.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 144731,
+        "description": "Explore Zaralek Cavern",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 144732,
+                "description": "Aberrus Approach",
+                "amount": 1
+            },
+            {
+                "id": 144733,
+                "description": "Buried Vault",
+                "amount": 1
+            },
+            {
+                "id": 144734,
+                "description": "Glimmerogg",
+                "amount": 1
+            },
+            {
+                "id": 144735,
+                "description": "Loamm",
+                "amount": 1
+            },
+            {
+                "id": 144736,
+                "description": "Nal ks'kol",
+                "amount": 1
+            },
+            {
+                "id": 144737,
+                "description": "Sulfur Wastes",
+                "amount": 1
+            },
+            {
+                "id": 144738,
+                "description": "The Throughway",
+                "amount": 1
+            },
+            {
+                "id": 144739,
+                "description": "Zaqali Caldera",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17766?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17766
+    },
+    "display_order": 111
+}

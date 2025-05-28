@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17734?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17734,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Active Listening Skills",
+    "description": "Complete the Rebel Dragonkin storyline.",
+    "points": 15,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 144581,
+        "description": "\"Reconcilable Dissidents\" Completed",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 144582,
+                "description": "Completed Reconciable Dissidents.",
+                "amount": 0
+            }
+        ]
+    },
+    "reward_description": "Title: The Reconciler",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17734?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17734
+    },
+    "display_order": 81
+}

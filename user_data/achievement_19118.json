@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19118?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19118,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Emerald Dream Racing Completionist",
+    "description": "Complete all races in the Emerald Dream.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 150544,
+        "description": "Emerald Dream Dragon Racing Completionist",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 150545,
+                "description": "Emerald Dream: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19109?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Dream: Bronze",
+                    "id": 19109
+                }
+            },
+            {
+                "id": 150546,
+                "description": "Emerald Dream Advanced: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19112?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Dream Advanced: Bronze",
+                    "id": 19112
+                }
+            },
+            {
+                "id": 150547,
+                "description": "Emerald Dream Reverse: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/19115?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Emerald Dream Reverse: Bronze",
+                    "id": 19115
+                }
+            }
+        ]
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19119?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Emerald Dream Racing Completionist: Silver",
+        "id": 19119
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19118?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19118
+    },
+    "display_order": 1352
+}

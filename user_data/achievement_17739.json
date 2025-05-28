@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17739?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17739,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Embers of Neltharion",
+    "description": "Complete the following storylines leading up to, and inside, Zaralek Cavern.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 144642,
+        "description": "10.1 Underground - Campaign Credit",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 144775,
+                "description": "A Creche Divided",
+                "amount": 1
+            },
+            {
+                "id": 144643,
+                "description": "Breaking Ground",
+                "amount": 1
+            },
+            {
+                "id": 144645,
+                "description": "Sundered Legacy",
+                "amount": 1
+            },
+            {
+                "id": 144647,
+                "description": "The Ancient Bargain",
+                "amount": 1
+            },
+            {
+                "id": 144649,
+                "description": "Inherited Sin",
+                "amount": 2
+            },
+            {
+                "id": 144652,
+                "description": "Inevitable Confrontation",
+                "amount": 1
+            },
+            {
+                "id": 144654,
+                "description": "A Flame, Extinguished",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17739?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17739
+    },
+    "display_order": 70
+}

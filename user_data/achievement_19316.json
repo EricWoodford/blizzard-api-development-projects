@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/19316?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 19316,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Adventurer of the Emerald Dream",
+    "description": "Complete 10 of the following special encounters in the Emerald Dream.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 151261,
+        "description": "Adventurer's Journey: The Emerald Dream",
+        "amount": 10,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 151262,
+                "description": "Nuoberon",
+                "amount": 1
+            },
+            {
+                "id": 151263,
+                "description": "Firebrand Fystia",
+                "amount": 1
+            },
+            {
+                "id": 151264,
+                "description": "Reefbreaker Moruud",
+                "amount": 1
+            },
+            {
+                "id": 151265,
+                "description": "Greedy Gessie",
+                "amount": 1
+            },
+            {
+                "id": 151266,
+                "description": "Envoy of Winter",
+                "amount": 1
+            },
+            {
+                "id": 151267,
+                "description": "Talthonei Ashwhisper",
+                "amount": 1
+            },
+            {
+                "id": 151268,
+                "description": "Splinterlimb",
+                "amount": 1
+            },
+            {
+                "id": 151269,
+                "description": "Ignit the Firebranded",
+                "amount": 1
+            },
+            {
+                "id": 151270,
+                "description": "Crabtankerous",
+                "amount": 1
+            },
+            {
+                "id": 151271,
+                "description": "Fruitface",
+                "amount": 1
+            },
+            {
+                "id": 151272,
+                "description": "The Apostle",
+                "amount": 1
+            },
+            {
+                "id": 151273,
+                "description": "Isaqa",
+                "amount": 1
+            },
+            {
+                "id": 151274,
+                "description": "Surging Lasher",
+                "amount": 1
+            },
+            {
+                "id": 151275,
+                "description": "Moragh the Slothful",
+                "amount": 1
+            },
+            {
+                "id": 151276,
+                "description": "Keen-eyed Cian",
+                "amount": 1
+            },
+            {
+                "id": 151277,
+                "description": "Somnambulant Ori",
+                "amount": 1
+            },
+            {
+                "id": 151278,
+                "description": "Bloodstripe Great Ray",
+                "amount": 1
+            },
+            {
+                "id": 151279,
+                "description": "Matriarch Keevah",
+                "amount": 1
+            },
+            {
+                "id": 151280,
+                "description": "Moltenbinder's Disciple",
+                "amount": 1
+            },
+            {
+                "id": 151281,
+                "description": "Molten Leadspike",
+                "amount": 1
+            },
+            {
+                "id": 151282,
+                "description": "Mosa Umbramane",
+                "amount": 1
+            },
+            {
+                "id": 151283,
+                "description": "Henri Snufftail",
+                "amount": 1
+            },
+            {
+                "id": 151284,
+                "description": "Ristar the Rabid",
+                "amount": 1
+            },
+            {
+                "id": 153296,
+                "description": "Voracious Mikanji",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/19316?namespace=static-11.1.5_60179-us"
+        },
+        "id": 19316
+    },
+    "display_order": 114
+}

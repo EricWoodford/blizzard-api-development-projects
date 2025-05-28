@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16540?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16540,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "Hunt Master",
+    "description": "Complete every Grand Hunt in the Dragon Isles.",
+    "points": 15,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138954,
+        "description": "Complete every Grand Hunt",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138955,
+                "description": "Northern Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138956,
+                "description": "Western Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138957,
+                "description": "Eastern Ohn'ahran Plains Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138958,
+                "description": "Southern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138959,
+                "description": "Eastern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138960,
+                "description": "Northern Waking Shores Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138961,
+                "description": "Western Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138962,
+                "description": "Eastern Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138963,
+                "description": "Southern Azure Span Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138964,
+                "description": "Southern Thaldraszus Hunt",
+                "amount": 1
+            },
+            {
+                "id": 138965,
+                "description": "Northern Thaldraszus Hunt",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16540?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16540
+    },
+    "display_order": 67
+}

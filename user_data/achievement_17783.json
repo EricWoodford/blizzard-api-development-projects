@@ -1,0 +1,142 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/17783?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 17783,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15465?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragon Isles",
+        "id": 15465
+    },
+    "name": "Adventurer of Zaralek Cavern",
+    "description": "Complete 10 of the following special encounters in Zaralek Cavern.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 144859,
+        "description": "Adventurer's Journey: Zaralek Cavern",
+        "amount": 10,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 144860,
+                "description": "Alcanon",
+                "amount": 1
+            },
+            {
+                "id": 144861,
+                "description": "Aquifon",
+                "amount": 1
+            },
+            {
+                "id": 144862,
+                "description": "Brullo the Strong",
+                "amount": 1
+            },
+            {
+                "id": 144863,
+                "description": "Colossian",
+                "amount": 1
+            },
+            {
+                "id": 144864,
+                "description": "Emberdusk",
+                "amount": 1
+            },
+            {
+                "id": 144865,
+                "description": "Flowfy",
+                "amount": 1
+            },
+            {
+                "id": 144866,
+                "description": "General Zskorro",
+                "amount": 1
+            },
+            {
+                "id": 144867,
+                "description": "Goopal",
+                "amount": 1
+            },
+            {
+                "id": 144869,
+                "description": "Invoq",
+                "amount": 1
+            },
+            {
+                "id": 144870,
+                "description": "Dinn",
+                "amount": 1
+            },
+            {
+                "id": 144871,
+                "description": "Karokta",
+                "amount": 1
+            },
+            {
+                "id": 144872,
+                "description": "Kapraku",
+                "amount": 1
+            },
+            {
+                "id": 144873,
+                "description": "Klakatak",
+                "amount": 1
+            },
+            {
+                "id": 144874,
+                "description": "Kob'rok",
+                "amount": 1
+            },
+            {
+                "id": 144877,
+                "description": "Magtembo",
+                "amount": 1
+            },
+            {
+                "id": 144878,
+                "description": "Professor Gastrinax",
+                "amount": 1
+            },
+            {
+                "id": 144880,
+                "description": "Skornak",
+                "amount": 1
+            },
+            {
+                "id": 144881,
+                "description": "Spinmarrow",
+                "amount": 1
+            },
+            {
+                "id": 144882,
+                "description": "Subterrax",
+                "amount": 1
+            },
+            {
+                "id": 144883,
+                "description": "Underlight Queen",
+                "amount": 1
+            },
+            {
+                "id": 144884,
+                "description": "Viridian King",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/17783?namespace=static-11.1.5_60179-us"
+        },
+        "id": 17783
+    },
+    "display_order": 116
+}

@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16401?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16401,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15455?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15455
+    },
+    "name": "Sojourner of the Waking Shores",
+    "description": "Complete the optional Waking Shores storylines listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 138349,
+        "description": "10.0 Lowlands - Side Questlines",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 138351,
+                "description": "Beyond the Barrier",
+                "amount": 0
+            },
+            {
+                "id": 138357,
+                "description": "Brave Researchers",
+                "amount": 0
+            },
+            {
+                "id": 138356,
+                "description": "Professional Protographer",
+                "amount": 0
+            },
+            {
+                "id": 138358,
+                "description": "Ruby Lifecalling",
+                "amount": 0
+            },
+            {
+                "id": 138353,
+                "description": "Save the Hippos!",
+                "amount": 0
+            },
+            {
+                "id": 138350,
+                "description": "The Shadow of His Wings",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16401?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16401
+    },
+    "display_order": 22
+}

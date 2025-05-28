@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16274?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 16274,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15467?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight Dungeon",
+        "id": 15467
+    },
+    "name": "Mythic: The Azure Vault",
+    "description": "Defeat Umbrelskul in The Azure Vault on Mythic or Mythic Keystone difficulty.",
+    "points": 10,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 137405,
+        "description": "Defeat Umbrelskul (Mythic+)",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/16273?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Heroic: The Azure Vault",
+        "id": 16273
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/16274?namespace=static-11.1.5_60179-us"
+        },
+        "id": 16274
+    },
+    "display_order": 18
+}

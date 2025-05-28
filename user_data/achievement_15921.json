@@ -1,0 +1,116 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/15921?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 15921,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15462?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Skyriding",
+        "id": 15462
+    },
+    "name": "Azure Span: Bronze",
+    "description": "Complete all normal races in the Azure Span.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 136744,
+        "description": "Azure Span - Bronze",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 136745,
+                "description": "The Azure Span Sprint: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15788?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Azure Span Sprint: Bronze",
+                    "id": 15788
+                }
+            },
+            {
+                "id": 136746,
+                "description": "The Azure Span Slalom: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15799?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Azure Span Slalom: Bronze",
+                    "id": 15799
+                }
+            },
+            {
+                "id": 136747,
+                "description": "The Vakthros Ascent: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15818?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Vakthros Ascent: Bronze",
+                    "id": 15818
+                }
+            },
+            {
+                "id": 136748,
+                "description": "Iskaara Tour: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15835?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Iskaara Tour: Bronze",
+                    "id": 15835
+                }
+            },
+            {
+                "id": 136749,
+                "description": "Frostland Flyover: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15841?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Frostland Flyover: Bronze",
+                    "id": 15841
+                }
+            },
+            {
+                "id": 136750,
+                "description": "Archive Ambit: Bronze",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/15847?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Archive Ambit: Bronze",
+                    "id": 15847
+                }
+            }
+        ]
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/15922?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Azure Span: Silver",
+        "id": 15922
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/15921?namespace=static-11.1.5_60179-us"
+        },
+        "id": 15921
+    },
+    "display_order": 18
+}

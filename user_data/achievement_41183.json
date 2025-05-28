@@ -1,0 +1,44 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41183?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41183,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15466?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dragonflight",
+        "id": 15466
+    },
+    "name": "There's No Place Like Loamm",
+    "description": "Reach Renown level 20 with the Loamm Niffen.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 144725,
+        "description": "10.1 Renown - Loamm Niffen - Rank 20v2",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 144726,
+                "description": null,
+                "amount": 20,
+                "show_progress_bar": true
+            }
+        ],
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41183?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41183
+    },
+    "display_order": 97
+}
