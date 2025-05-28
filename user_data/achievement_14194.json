@@ -1,0 +1,57 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14194?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14194,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Halls of Devotion",
+    "description": "Defeat the following bosses in Ny'alotha, the Waking City.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 84592,
+        "description": "Achievement - N'Zoth Raid - Wing 2",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 84593,
+                "description": "Dark Inquisitor Xanesh",
+                "amount": 1
+            },
+            {
+                "id": 84594,
+                "description": "Vexiona",
+                "amount": 1
+            },
+            {
+                "id": 84595,
+                "description": "The Hivemind",
+                "amount": 1
+            },
+            {
+                "id": 84596,
+                "description": "Ra-Den the Despoiled",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14194?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14194
+    },
+    "display_order": 104
+}

@@ -1,0 +1,47 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14196?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14196,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "The Waking Dream",
+    "description": "Defeat the following bosses in Ny'alotha, the Waking City.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 84601,
+        "description": "Achievement - N'Zoth Raid - Wing 4",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 84602,
+                "description": "Carapace of N'Zoth",
+                "amount": 1
+            },
+            {
+                "id": 84603,
+                "description": "N'Zoth the Corruptor",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14196?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14196
+    },
+    "display_order": 106
+}

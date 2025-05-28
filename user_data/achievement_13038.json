@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13038?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13038,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Raptari Rider",
+    "description": "Maintain the Speed of Gonk for 3 minutes in Zuldazar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69509,
+        "description": "8.0 Zandalar - Achievement - Raptari Rider - ZTO",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13038?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13038
+    },
+    "display_order": 66,
+    "requirements": {
+        "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+        }
+    }
+}

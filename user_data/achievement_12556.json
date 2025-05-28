@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12556?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12556,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Explore Tiragarde Sound",
+    "description": "Explore Tiragarde Sound, revealing the covered areas of the world map.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69136,
+        "description": "8.0 Kul Tiras: (DLA) - Explore Tiragarde Souind",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69137,
+                "description": "Anglepoint Wharf",
+                "amount": 0
+            },
+            {
+                "id": 69138,
+                "description": "Boralus",
+                "amount": 0
+            },
+            {
+                "id": 69139,
+                "description": "Fernwood Ridge",
+                "amount": 0
+            },
+            {
+                "id": 69140,
+                "description": "Freehold",
+                "amount": 0
+            },
+            {
+                "id": 69141,
+                "description": "Norwington Estate",
+                "amount": 0
+            },
+            {
+                "id": 69142,
+                "description": "Krakenbane Cove",
+                "amount": 0
+            },
+            {
+                "id": 69143,
+                "description": "Abandoned Junkheap",
+                "amount": 0
+            },
+            {
+                "id": 69144,
+                "description": "Kennings Lodge",
+                "amount": 0
+            },
+            {
+                "id": 69145,
+                "description": "The Wailing Tideway",
+                "amount": 0
+            },
+            {
+                "id": 69146,
+                "description": "Vigil Hill",
+                "amount": 0
+            },
+            {
+                "id": 69147,
+                "description": "Waning Glacier",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12556?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12556
+    },
+    "display_order": 14
+}

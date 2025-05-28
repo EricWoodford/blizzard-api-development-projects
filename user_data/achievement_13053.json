@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13053?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13053,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Deadliest Cache",
+    "description": "Listen to the tall tales of Coxswain Hook, Master Gunner Line, and \"Sinker\" at Thresher's Wharf in Stormsong Valley.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68661,
+        "description": "8.0 Stormsong - Fishing Village - Achievement - GJC",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13053?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13053
+    },
+    "display_order": 58,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}

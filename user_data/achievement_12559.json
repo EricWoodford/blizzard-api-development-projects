@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12559?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12559,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Explore Zuldazar",
+    "description": "Explore Zuldazar, revealing the covered areas of the world map.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69026,
+        "description": "8.0 Achievement - Explore Zuldazar",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69027,
+                "description": "Atal'Dazar",
+                "amount": 0
+            },
+            {
+                "id": 69028,
+                "description": "Atal'Gral",
+                "amount": 0
+            },
+            {
+                "id": 69029,
+                "description": "Blood Gate",
+                "amount": 0
+            },
+            {
+                "id": 69030,
+                "description": "Dazar'alor",
+                "amount": 0
+            },
+            {
+                "id": 69031,
+                "description": "Dreadpearl Shallows",
+                "amount": 0
+            },
+            {
+                "id": 69032,
+                "description": "Garden of the Loa",
+                "amount": 0
+            },
+            {
+                "id": 69033,
+                "description": "Savagelands",
+                "amount": 0
+            },
+            {
+                "id": 69034,
+                "description": "The Sliver",
+                "amount": 0
+            },
+            {
+                "id": 69035,
+                "description": "Tusk Isle",
+                "amount": 0
+            },
+            {
+                "id": 69036,
+                "description": "Talanji's Rebuke",
+                "amount": 0
+            },
+            {
+                "id": 69037,
+                "description": "Xibala",
+                "amount": 0
+            },
+            {
+                "id": 69038,
+                "description": "Zeb'ahari",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12559?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12559
+    },
+    "display_order": 17
+}

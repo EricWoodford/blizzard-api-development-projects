@@ -1,0 +1,57 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13477?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13477,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Junkyard Apprentice",
+    "description": "Craft 250 Junkyard Tinkering items in Mechagon, excluding crates.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 78481,
+        "description": "8.2 Mechagon - Achievement - Junkyard Apprentice (JDA)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 78482,
+                "description": null,
+                "amount": 250,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13475?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Junkyard Scavenger",
+        "id": 13475
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13476?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Junkyard Tinkerer",
+        "id": 13476
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13477?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13477
+    },
+    "display_order": 96
+}

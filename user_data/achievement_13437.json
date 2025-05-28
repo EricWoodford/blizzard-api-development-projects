@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13437?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13437,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Scavenge like a Vulpera",
+    "description": "Complete a digsite while dressed like a vulpera during the Vol'dun Assault World Quest \"Vulpera for a Day.\"",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 72529,
+        "description": "8.1 Incursions - Vol'dun - H WQ05 - Vulpera for a Day Achievement (JDA)",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13437?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13437
+    },
+    "display_order": 35,
+    "requirements": {
+        "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+        }
+    }
+}

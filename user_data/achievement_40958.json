@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/40958?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 40958,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15417?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Heart of Azeroth",
+        "id": 15417
+    },
+    "name": "Full Heart, Can't Lose",
+    "description": "Complete each of the Heart of Azeroth achievements listed below.",
+    "points": 30,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 170428,
+        "description": "Complete each of the Heart of Azeroth achievements listed below.",
+        "amount": 4,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 170429,
+                "description": "Have a Heart",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12918?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Have a Heart",
+                    "id": 12918
+                }
+            },
+            {
+                "id": 170430,
+                "description": "The Heart Forge",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13572?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Heart Forge",
+                    "id": 13572
+                }
+            },
+            {
+                "id": 170431,
+                "description": "Power Is Beautiful",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13771?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Power Is Beautiful",
+                    "id": 13771
+                }
+            },
+            {
+                "id": 170432,
+                "description": "My Heart Container is Full",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13777?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "My Heart Container is Full",
+                    "id": 13777
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/40958?namespace=static-11.1.5_60179-us"
+        },
+        "id": 40958
+    },
+    "display_order": 1
+}

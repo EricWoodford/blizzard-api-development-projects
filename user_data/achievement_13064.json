@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13064?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13064,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Drust the Facts, Ma'am",
+    "description": "Find and read all of the following Drust Stele in Drustvar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68688,
+        "description": "8.0 Drustvar - Achievement - Drust Lore Stele - KRB",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68689,
+                "description": "Drust Stele: The Circle",
+                "amount": 1
+            },
+            {
+                "id": 68690,
+                "description": "Drust Stele: The Ritual",
+                "amount": 1
+            },
+            {
+                "id": 68691,
+                "description": "Drust Stele: The Tree",
+                "amount": 1
+            },
+            {
+                "id": 68692,
+                "description": "Drust Stele: Breath Into Stone",
+                "amount": 1
+            },
+            {
+                "id": 68693,
+                "description": "Drust Stele: Sacrifice",
+                "amount": 1
+            },
+            {
+                "id": 68694,
+                "description": "Drust Stele: Constructs",
+                "amount": 1
+            },
+            {
+                "id": 68695,
+                "description": "Drust Stele: The Cycle",
+                "amount": 1
+            },
+            {
+                "id": 68696,
+                "description": "Drust Stele: Conflict",
+                "amount": 1
+            },
+            {
+                "id": 68697,
+                "description": "Drust Stele: The Flayed Man",
+                "amount": 1
+            },
+            {
+                "id": 68698,
+                "description": "Drust Stele: Protectors of the Forest",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13064?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13064
+    },
+    "display_order": 39
+}

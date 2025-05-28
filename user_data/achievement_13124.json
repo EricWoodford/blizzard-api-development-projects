@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13124?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13124,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Metal Detector",
+    "description": "Loot 100 Seafarer's Dubloons.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69315,
+        "description": "Gain 100 Seafarer's Dubloons.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69316,
+                "description": null,
+                "amount": 100,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13123?namespace=static-11.1.5_60179-us"
+        },
+        "name": "My Dubs",
+        "id": 13123
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13124?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13124
+    },
+    "display_order": 57
+}

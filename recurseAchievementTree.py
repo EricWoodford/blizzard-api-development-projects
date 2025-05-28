@@ -21,10 +21,11 @@ REGION = "us"
 LOCALE = "en_US"
 
 # Character and realm information
-CHARACTER_NAME =  "Eruptan"
-REALM_NAME = "Stormrage"
+CHARACTER_NAME =  "Elkagorasa" 
+REALM_NAME = "Malfurion"
 # Achievement ID to start with
-achievement_id = "19458" 
+#achievement_id = "19458"  # a world awoken
+achievement_id = "40953" # a farewell to arms
 
 # Achievement hash to store achievement IDs and their children
 achievement_hash = defaultdict(list)
@@ -106,6 +107,9 @@ def fetch_achievement_tree(access_token, REGION, LOCALE, achievement_id):
         achievement_data = get_achievement_from_id(access_token, REGION, achievement_id, LOCALE)
         if not achievement_data:
          #   print(f"Failed to fetch data for achievement ID: {achievement_id}")
+            return []
+        # if achievement_data doesn't have criteria, return an empty list
+        if 'criteria' not in achievement_data or not achievement_data.get('criteria', {}).get('child_criteria', []):
             return []
         children = achievement_data.get("criteria",[]).get('child_criteria', [])
         if not children:  # Stop criteria: if no child criteria are present

@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12522?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12522,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Crimson Descent",
+    "description": "Defeat the following bosses in the depths of Uldir.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 66228,
+        "description": "Achievement - Uldir Wing 2",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 66229,
+                "description": "Vectis",
+                "amount": 1
+            },
+            {
+                "id": 66230,
+                "description": "Fetid Devourer",
+                "amount": 1
+            },
+            {
+                "id": 66231,
+                "description": "Zul",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12522?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12522
+    },
+    "display_order": 4
+}

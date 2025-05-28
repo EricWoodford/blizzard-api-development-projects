@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13126?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13126,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Give Me The Energy",
+    "description": "Collect 30 globes of Azerite Energy on Island Expeditions.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69319,
+        "description": "Collect 30 globes of Azerite Energy.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69320,
+                "description": null,
+                "amount": 30,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13126?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13126
+    },
+    "display_order": 59
+}

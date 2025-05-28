@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14059?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14059,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15259?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Appearances",
+        "id": 15259
+    },
+    "name": "The Eyes Have It",
+    "description": "Collect any armor set from Battle for Azeroth PvP Season 4.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 83212,
+        "description": "PvP Season 29 - Set Collection",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14059?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14059
+    },
+    "display_order": 80
+}

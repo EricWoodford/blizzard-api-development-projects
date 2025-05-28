@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14067?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14067,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15426?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Visions of N'Zoth",
+        "id": 15426
+    },
+    "name": "The Most Horrific Vision of Orgrimmar",
+    "description": "Complete all objectives in the Horrific Vision of Orgrimmar in a single visit and with all 5 Faceless Masks active.",
+    "points": 15,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 83235,
+        "description": "The Most Horrific Vision of Orgrimmar",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14065?namespace=static-11.1.5_60179-us"
+        },
+        "name": "The Even More Horrific Vision of Orgrimmar",
+        "id": 14065
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14067?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14067
+    },
+    "display_order": 10
+}

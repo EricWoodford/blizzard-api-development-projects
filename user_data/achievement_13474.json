@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13474?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13474,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Junkyard Machinist",
+    "description": "Complete 100 construction projects in Mechagon",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 78518,
+        "description": "8.2 Mechagon - Achievement - Junkyard Master Machinist (JDA)",
+        "amount": 100,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 78519,
+                "description": null,
+                "amount": 100,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13474?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13474
+    },
+    "display_order": 92
+}

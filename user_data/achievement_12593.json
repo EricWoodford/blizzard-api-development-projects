@@ -1,0 +1,91 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12593?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12593,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Loremaster of Kul Tiras",
+    "description": "Complete the Kul Tiras quest achievements listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 66891,
+        "description": null,
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 66892,
+                "description": "A Sound Plan",
+                "amount": 1,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12473?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "A Sound Plan",
+                    "id": 12473
+                }
+            },
+            {
+                "id": 66893,
+                "description": "Drust Do It.",
+                "amount": 1,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12497?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Drust Do It.",
+                    "id": 12497
+                }
+            },
+            {
+                "id": 66894,
+                "description": "Stormsong and Dance",
+                "amount": 1,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12496?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Stormsong and Dance",
+                    "id": 12496
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12593?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12593
+    },
+    "display_order": 13,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}

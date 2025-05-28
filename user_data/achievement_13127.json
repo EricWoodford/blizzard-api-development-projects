@@ -1,0 +1,137 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13127?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13127,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Tell Me A Tale",
+    "description": "Complete 10 of the Island Expeditions quests listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69321,
+        "description": "Complete 10 of the Island Expeditions Quests.",
+        "amount": 10,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 69322,
+                "description": "Weathered Pamphlet",
+                "amount": 1
+            },
+            {
+                "id": 69323,
+                "description": "Wriggling Mass",
+                "amount": 1
+            },
+            {
+                "id": 69324,
+                "description": "Strangling Root",
+                "amount": 1
+            },
+            {
+                "id": 69325,
+                "description": "Druidic Fur",
+                "amount": 1
+            },
+            {
+                "id": 69326,
+                "description": "Vorus'arak's Carapace",
+                "amount": 1
+            },
+            {
+                "id": 69327,
+                "description": "Razorfin Hunting Spear",
+                "amount": 1
+            },
+            {
+                "id": 69328,
+                "description": "Broken Compass",
+                "amount": 1
+            },
+            {
+                "id": 69329,
+                "description": "Glittering Scarab",
+                "amount": 1
+            },
+            {
+                "id": 69330,
+                "description": "Murloc Eye",
+                "amount": 1
+            },
+            {
+                "id": 69331,
+                "description": "Venture Co. Business Plan",
+                "amount": 1
+            },
+            {
+                "id": 69332,
+                "description": "Battered Twilight Scale",
+                "amount": 1
+            },
+            {
+                "id": 69333,
+                "description": "Unscarred Black Scale",
+                "amount": 1
+            },
+            {
+                "id": 69334,
+                "description": "Elemental Core",
+                "amount": 1
+            },
+            {
+                "id": 69335,
+                "description": "Magical Spyglass",
+                "amount": 1
+            },
+            {
+                "id": 69336,
+                "description": "Icetusk Fur Cloak",
+                "amount": 1
+            },
+            {
+                "id": 69337,
+                "description": "Sonic Stone",
+                "amount": 1
+            },
+            {
+                "id": 69338,
+                "description": "Bloodwake Drinking Horn",
+                "amount": 1
+            },
+            {
+                "id": 69339,
+                "description": "Ring of the Reefs",
+                "amount": 1
+            },
+            {
+                "id": 69340,
+                "description": "Ancient Crypt Key",
+                "amount": 1
+            },
+            {
+                "id": 69341,
+                "description": "Notched Coin",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13127?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13127
+    },
+    "display_order": 60
+}

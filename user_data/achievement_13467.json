@@ -1,0 +1,63 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13467?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13467,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Tides of Vengeance",
+    "description": "Complete the Tides of Vengeance war campaign.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 78420,
+        "description": "Tides of Vengeance War Campaign",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 78421,
+                "description": "War Marches On",
+                "amount": 1
+            },
+            {
+                "id": 78422,
+                "description": "The Sleeper Agent",
+                "amount": 1
+            },
+            {
+                "id": 78423,
+                "description": "Mischief Managed",
+                "amount": 1
+            },
+            {
+                "id": 78424,
+                "description": "He Who Walks in the Light",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13467?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13467
+    },
+    "display_order": 41,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}

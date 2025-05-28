@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14154?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14154,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Defend the Vale",
+    "description": "Defend the Vale of Eternal Blossoms from each of the Assaults.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 83539,
+        "description": "8.3 Complete Vale Assaults",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 83540,
+                "description": "Assault: The Warring Clans",
+                "amount": 1
+            },
+            {
+                "id": 83541,
+                "description": "Assault: The Endless Swarm",
+                "amount": 1
+            },
+            {
+                "id": 83542,
+                "description": "Assault: The Black Empire",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14154?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14154
+    },
+    "display_order": 90
+}

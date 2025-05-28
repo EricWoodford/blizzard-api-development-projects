@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13836?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13836,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Feline Figurines Found",
+    "description": "Find all of the lost crystalline cat figurines that Azshara was gifted, because someone gave her a cat figurine one time even though she never really liked cats, in Nazjatar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 81476,
+        "description": "Crystalline Figurines Found",
+        "amount": 10
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13836?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13836
+    },
+    "display_order": 86
+}

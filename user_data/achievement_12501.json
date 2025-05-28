@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12501?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12501,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15285?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Dungeon",
+        "id": 15285
+    },
+    "name": "Heroic: Underrot",
+    "description": "Defeat the Unbound Abomination in Underrot on Heroic difficulty or higher.",
+    "points": 10,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 66093,
+        "description": "Underrot Dungeon - Heroic Defeat Blood Golem",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12500?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Underrot",
+        "id": 12500
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13003?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Mythic: Underrot Guild Run",
+        "id": 13003
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12501?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12501
+    },
+    "display_order": 16
+}

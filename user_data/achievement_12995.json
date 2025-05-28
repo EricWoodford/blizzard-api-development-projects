@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12995?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12995,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Treasures of Drustvar",
+    "description": "Discover the hidden treasures of Drustvar.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69016,
+        "description": "Unique Treasures: Drustvar",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69017,
+                "description": "Web-Covered Chest",
+                "amount": 1
+            },
+            {
+                "id": 69018,
+                "description": "Merchant's Chest",
+                "amount": 1
+            },
+            {
+                "id": 69019,
+                "description": "Runebound Cache",
+                "amount": 1
+            },
+            {
+                "id": 69020,
+                "description": "Runebound Chest",
+                "amount": 1
+            },
+            {
+                "id": 69021,
+                "description": "Runebound Coffer",
+                "amount": 1
+            },
+            {
+                "id": 69022,
+                "description": "Hexed Chest",
+                "amount": 1
+            },
+            {
+                "id": 69023,
+                "description": "Bespelled Chest",
+                "amount": 1
+            },
+            {
+                "id": 69024,
+                "description": "Ensorcelled Chest",
+                "amount": 1
+            },
+            {
+                "id": 69025,
+                "description": "Enchanted Chest",
+                "amount": 1
+            },
+            {
+                "id": 69077,
+                "description": "Stolen Thornspeaker Cache",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12995?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12995
+    },
+    "display_order": 28
+}

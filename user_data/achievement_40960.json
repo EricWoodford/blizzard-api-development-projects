@@ -1,0 +1,73 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/40960?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 40960,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Uldir",
+    "description": "Defeat the bosses of Uldir on Normal difficulty or higher.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 168612,
+        "description": "Defeat the bosses of Uldir on Normal difficulty or higher",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 168613,
+                "description": "Halls of Containment",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12521?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Halls of Containment",
+                    "id": 12521
+                }
+            },
+            {
+                "id": 168614,
+                "description": "Crimson Descent",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12522?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Crimson Descent",
+                    "id": 12522
+                }
+            },
+            {
+                "id": 168615,
+                "description": "Heart of Corruption",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12523?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heart of Corruption",
+                    "id": 12523
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/40960?namespace=static-11.1.5_60179-us"
+        },
+        "id": 40960
+    },
+    "display_order": 8
+}

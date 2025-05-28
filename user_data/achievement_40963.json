@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/40963?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 40963,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Ny'alotha, the Waking City",
+    "description": "Defeat the bosses of Ny'alotha, the Waking City on Normal difficulty or higher.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 168630,
+        "description": "Defeat the bosses of Ny'alotha, the Waking City on Normal difficulty or higher.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 168631,
+                "description": "Vision of Destiny",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14193?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Vision of Destiny",
+                    "id": 14193
+                }
+            },
+            {
+                "id": 168632,
+                "description": "Halls of Devotion",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14194?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Halls of Devotion",
+                    "id": 14194
+                }
+            },
+            {
+                "id": 168633,
+                "description": "Gift of Flesh",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14195?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Gift of Flesh",
+                    "id": 14195
+                }
+            },
+            {
+                "id": 168634,
+                "description": "The Waking Dream",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14196?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Waking Dream",
+                    "id": 14196
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/40963?namespace=static-11.1.5_60179-us"
+        },
+        "id": 40963
+    },
+    "display_order": 107
+}

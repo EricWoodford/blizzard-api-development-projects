@@ -1,0 +1,47 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12523?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12523,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Heart of Corruption",
+    "description": "Defeat the following bosses and extinguish the corruption in the lowest reaches of Uldir.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 66232,
+        "description": "Achievement - Uldir Wing 3",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 66233,
+                "description": "Mythrax",
+                "amount": 1
+            },
+            {
+                "id": 66234,
+                "description": "G'huun",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12523?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12523
+    },
+    "display_order": 6
+}

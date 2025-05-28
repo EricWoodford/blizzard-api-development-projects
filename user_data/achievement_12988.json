@@ -1,0 +1,109 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12988?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12988,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/97?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Exploration",
+        "id": 97
+    },
+    "name": "Battle for Azeroth Explorer",
+    "description": "Explore the regions of Kul Tiras and Zandalar.",
+    "points": 25,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68480,
+        "description": null,
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68481,
+                "description": "Explore Tiragarde Sound",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12556?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Tiragarde Sound",
+                    "id": 12556
+                }
+            },
+            {
+                "id": 68482,
+                "description": "Explore Drustvar",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12557?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Drustvar",
+                    "id": 12557
+                }
+            },
+            {
+                "id": 68483,
+                "description": "Explore Stormsong Valley",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12558?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Stormsong Valley",
+                    "id": 12558
+                }
+            },
+            {
+                "id": 68484,
+                "description": "Explore Zuldazar",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12559?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Zuldazar",
+                    "id": 12559
+                }
+            },
+            {
+                "id": 68485,
+                "description": "Explore Nazmir",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12561?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Nazmir",
+                    "id": 12561
+                }
+            },
+            {
+                "id": 68486,
+                "description": "Explore Vol'dun",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12560?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Vol'dun",
+                    "id": 12560
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12988?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12988
+    },
+    "display_order": 9
+}

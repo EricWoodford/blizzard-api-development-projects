@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13018?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13018,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Dune Rider",
+    "description": "Ride all of the rickety planks in Vol'dun",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68591,
+        "description": "8.0 Vol'dun - Achievement - Dune Rider (JDA)",
+        "amount": 5,
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13018?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13018
+    },
+    "display_order": 50
+}

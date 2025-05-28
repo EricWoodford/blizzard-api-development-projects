@@ -1,0 +1,166 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/40961?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 40961,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Raid",
+        "id": 15286
+    },
+    "name": "Battle of Dazar'alor",
+    "description": "Defeat the Bosses of Battle of Dazar'alot on Normal difficulty or higher.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 168616,
+        "description": "Defeat the bosses of Battle of Dazar'alor on Normal difficulty or higher",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 168617,
+                "description": "Wing 1",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 168618,
+                        "description": "Siege of Dazar'alor",
+                        "amount": 1,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13286?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Siege of Dazar'alor",
+                            "id": 13286
+                        }
+                    },
+                    {
+                        "id": 168619,
+                        "description": "Defense of Dazar'alor",
+                        "amount": 1,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13289?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Defense of Dazar'alor",
+                            "id": 13289
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 168620,
+                "description": "Wing 2",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 168621,
+                        "description": "Empire's Fall",
+                        "amount": 1,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13287?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Empire's Fall",
+                            "id": 13287
+                        }
+                    },
+                    {
+                        "id": 168622,
+                        "description": "Death's Bargain",
+                        "amount": 1,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13290?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Death's Bargain",
+                            "id": 13290
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 168623,
+                "description": "Wing 3",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 168624,
+                        "description": "Might of the Alliance",
+                        "amount": 1,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13288?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Might of the Alliance",
+                            "id": 13288
+                        }
+                    },
+                    {
+                        "id": 168625,
+                        "description": "Victory or Death",
+                        "amount": 0,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13291?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Victory or Death",
+                            "id": 13291
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/40961?namespace=static-11.1.5_60179-us"
+        },
+        "id": 40961
+    },
+    "display_order": 34
+}

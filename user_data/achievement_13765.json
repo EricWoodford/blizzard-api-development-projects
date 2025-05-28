@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13765?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13765,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Subaquatic Support",
+    "description": "Complete 30 Requisition or Bounty daily quests in Nazjatar.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 81177,
+        "description": "Complete 30 Requisition or Bounty daily quests in Nazjatar.",
+        "amount": 30,
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13765?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13765
+    },
+    "display_order": 78
+}

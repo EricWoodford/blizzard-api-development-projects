@@ -1,0 +1,330 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13638?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13638,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Undersea Usurper",
+    "description": "Complete the Nazjatar achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 81134,
+        "description": "Complete Nazjatar Achievements",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 81135,
+                "description": "Tour of the Depths",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13635?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Tour of the Depths",
+                    "id": 13635
+                }
+            },
+            {
+                "id": 81136,
+                "description": "Nazjatarget Eliminated",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13690?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Nazjatarget Eliminated",
+                    "id": 13690
+                }
+            },
+            {
+                "id": 81137,
+                "description": "I Thought You Said They'd Be Rare?",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13691?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "I Thought You Said They'd Be Rare?",
+                    "id": 13691
+                }
+            },
+            {
+                "id": 81139,
+                "description": "Complete Follower Achievements",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 81140,
+                        "description": "Aqua Team Murder Force",
+                        "amount": 0,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13761?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Aqua Team Murder Force",
+                            "id": 13761
+                        }
+                    },
+                    {
+                        "id": 81141,
+                        "description": "Aqua Team Murder Force",
+                        "amount": 0,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13762?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Aqua Team Murder Force",
+                            "id": 13762
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 81143,
+                "description": "A Fistful of Manapearls",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13711?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "A Fistful of Manapearls",
+                    "id": 13711
+                }
+            },
+            {
+                "id": 81144,
+                "description": "Terror of the Tadpoles",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13722?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Terror of the Tadpoles",
+                    "id": 13722
+                }
+            },
+            {
+                "id": 81145,
+                "description": "Periodic Destruction",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13699?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Periodic Destruction",
+                    "id": 13699
+                }
+            },
+            {
+                "id": 81146,
+                "description": "Nothing To Scry About",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13713?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Nothing To Scry About",
+                    "id": 13713
+                }
+            },
+            {
+                "id": 81147,
+                "description": "Mrrl's Secret Stash",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13707?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Mrrl's Secret Stash",
+                    "id": 13707
+                }
+            },
+            {
+                "id": 81175,
+                "description": "Back to the Depths!",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13763?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Back to the Depths!",
+                    "id": 13763
+                }
+            },
+            {
+                "id": 81176,
+                "description": "Puzzle Performer",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13764?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Puzzle Performer",
+                    "id": 13764
+                }
+            },
+            {
+                "id": 81234,
+                "description": "Explore Nazjatar",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13712?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Explore Nazjatar",
+                    "id": 13712
+                }
+            },
+            {
+                "id": 81235,
+                "description": "Ankoan or Unshackled Exalted",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 81236,
+                        "description": "Waveblade Ankoan",
+                        "amount": 0,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13558?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Waveblade Ankoan",
+                            "id": 13558
+                        }
+                    },
+                    {
+                        "id": 81237,
+                        "description": "The Unshackled",
+                        "amount": 0,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13559?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "The Unshackled",
+                            "id": 13559
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 81238,
+                "description": "Subaquatic Support",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13765?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Subaquatic Support",
+                    "id": 13765
+                }
+            },
+            {
+                "id": 81239,
+                "description": "Complete Nazjatar Questlines",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 81240,
+                        "description": "Unfathomable",
+                        "amount": 0,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13709?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Unfathomable",
+                            "id": 13709
+                        }
+                    },
+                    {
+                        "id": 81241,
+                        "description": "Sunken Ambitions",
+                        "amount": 0,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13710?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Sunken Ambitions",
+                            "id": 13710
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 81487,
+                "description": "Feline Figurines Found",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13836?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Feline Figurines Found",
+                    "id": 13836
+                }
+            }
+        ]
+    },
+    "reward_description": "Title: Of The Deeps, Mount Reward: Snapback Scuttler",
+    "reward_item": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/169194?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Snapback Scuttler",
+        "id": 169194
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13638?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13638
+    },
+    "display_order": 87
+}

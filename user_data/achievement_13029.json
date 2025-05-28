@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13029?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13029,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Eating Out of the Palm of My Tiny Hand",
+    "description": "Feed brutosaurs their favorite food in Zandalar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68623,
+        "description": "8.0 Vol'dun - Achievement - Eating Out of the Palm of My Tiny Hand (Kmart)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68625,
+                "description": "Brutosaur of Nazmir Fed",
+                "amount": 0
+            },
+            {
+                "id": 68858,
+                "description": "Brutosaur of Vol'dun Fed",
+                "amount": 0
+            },
+            {
+                "id": 68859,
+                "description": "Brutosaur of Zuldazar Fed",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13029?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13029
+    },
+    "display_order": 44
+}

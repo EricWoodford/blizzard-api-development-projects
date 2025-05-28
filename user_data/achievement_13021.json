@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13021?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13021,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "A Most Efficient Apocalypse",
+    "description": "Board the A.F.M.O.D and complete the Nazmir world quest \"Cancel the Blood Troll Apocalypse\" in 30 seconds while not in a group.",
+    "points": 5,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 68950,
+        "description": "Board the A.F.M.O.D and complete the Nazmir world quest \"Cancel the Blood Troll Apocalypse\" in 30 seconds while not in a group.",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13021?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13021
+    },
+    "display_order": 80,
+    "requirements": {
+        "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+        }
+    }
+}

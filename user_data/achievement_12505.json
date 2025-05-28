@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12505?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12505,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15285?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle Dungeon",
+        "id": 15285
+    },
+    "name": "Heroic: The Temple of Sethraliss",
+    "description": "Restore the Avatar of Sethraliss in the Temple of Sethraliss on Heroic difficulty or higher.",
+    "points": 10,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 66108,
+        "description": "Heroic: The Temple of Sethraliss",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12504?namespace=static-11.1.5_60179-us"
+        },
+        "name": "The Temple of Sethraliss",
+        "id": 12504
+    },
+    "next_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13004?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Mythic: The Temple of Sethraliss Guild Run",
+        "id": 13004
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12505?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12505
+    },
+    "display_order": 19
+}

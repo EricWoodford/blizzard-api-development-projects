@@ -1,0 +1,63 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13466?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13466,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Tides of Vengeance",
+    "description": "Complete the Tides of Vengeance war campaign.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 78415,
+        "description": "Tides of Vengeance War Campaign",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 78416,
+                "description": "The Day is Won",
+                "amount": 1
+            },
+            {
+                "id": 79561,
+                "description": "Mekkatorque's Battle Plans",
+                "amount": 1
+            },
+            {
+                "id": 78418,
+                "description": "Through the Front Door",
+                "amount": 1
+            },
+            {
+                "id": 78419,
+                "description": "Fly Out to Meet Them",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13466?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13466
+    },
+    "display_order": 38,
+    "requirements": {
+        "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+        }
+    }
+}

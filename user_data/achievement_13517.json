@@ -1,0 +1,109 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13517?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13517,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Two Sides to Every Tale",
+    "description": "Complete the following achievements on the continents of Zandalar and Kul Tiras.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 79432,
+        "description": null,
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 79433,
+                "description": "A Nation United",
+                "amount": 0,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12891?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "A Nation United",
+                    "id": 12891
+                }
+            },
+            {
+                "id": 79434,
+                "description": "Tides of Vengeance",
+                "amount": 0,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13467?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Tides of Vengeance",
+                    "id": 13467
+                }
+            },
+            {
+                "id": 79435,
+                "description": "Zandalar Forever!",
+                "amount": 0,
+                "faction": {
+                    "type": "HORDE",
+                    "name": "Horde"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12479?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Zandalar Forever!",
+                    "id": 12479
+                }
+            },
+            {
+                "id": 79436,
+                "description": "Tides of Vengeance",
+                "amount": 0,
+                "faction": {
+                    "type": "HORDE",
+                    "name": "Horde"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13466?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Tides of Vengeance",
+                    "id": 13466
+                }
+            }
+        ]
+    },
+    "reward_description": "Mount: Bloodflank Charger and Ironclad Frostclaw",
+    "reward_item": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/168056?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Ironclad Frostclaw",
+        "id": 168056
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13517?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13517
+    },
+    "display_order": 43
+}

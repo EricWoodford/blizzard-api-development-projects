@@ -1,0 +1,197 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13556?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13556,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Outside Influences",
+    "description": "Complete 15 quests from the visitors in Mechagon.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 80067,
+        "description": "8.2 Mechagon - Complete all of the Visitor quests.",
+        "amount": 15,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 80069,
+                "description": "Aid From Nordrassil",
+                "amount": 1
+            },
+            {
+                "id": 80071,
+                "description": "One Gnome's Trash",
+                "amount": 1
+            },
+            {
+                "id": 80072,
+                "description": "Clues Abound",
+                "amount": 1
+            },
+            {
+                "id": 80073,
+                "description": "A Historical Mess",
+                "amount": 1
+            },
+            {
+                "id": 80074,
+                "description": "A Growing Mystery",
+                "amount": 1
+            },
+            {
+                "id": 80075,
+                "description": "Time for Heroics",
+                "amount": 1
+            },
+            {
+                "id": 80076,
+                "description": "Strange Discovery",
+                "amount": 1
+            },
+            {
+                "id": 80079,
+                "description": "Deck 'Em",
+                "amount": 1
+            },
+            {
+                "id": 80078,
+                "description": "Bugs, Lots of 'Em!",
+                "amount": 1
+            },
+            {
+                "id": 80070,
+                "description": "Pirates? I Hate Those Guys!",
+                "amount": 1
+            },
+            {
+                "id": 80077,
+                "description": "Rico's Rescue",
+                "amount": 1
+            },
+            {
+                "id": 80080,
+                "description": "The Other Place",
+                "amount": 1
+            },
+            {
+                "id": 80081,
+                "description": "The Final Act",
+                "amount": 1
+            },
+            {
+                "id": 80085,
+                "description": "Abduction Reduction",
+                "amount": 1
+            },
+            {
+                "id": 80087,
+                "description": "Aim High",
+                "amount": 1
+            },
+            {
+                "id": 80313,
+                "description": "Pirates, Sea Monsters, Robots",
+                "amount": 1
+            },
+            {
+                "id": 80314,
+                "description": "Go For The Gold",
+                "amount": 1
+            },
+            {
+                "id": 80317,
+                "description": "The Family Jewels",
+                "amount": 1
+            },
+            {
+                "id": 80318,
+                "description": "Adapt, Improve, Overcome!",
+                "amount": 1
+            },
+            {
+                "id": 80378,
+                "description": "Toys For Destruction",
+                "amount": 1
+            },
+            {
+                "id": 80381,
+                "description": "Playtime's Over",
+                "amount": 1
+            },
+            {
+                "id": 80382,
+                "description": "Battle Tested",
+                "amount": 1
+            },
+            {
+                "id": 80389,
+                "description": "Be Kind, Rewind",
+                "amount": 1
+            },
+            {
+                "id": 80714,
+                "description": "My Chicken are Not For Eating!",
+                "amount": 1
+            },
+            {
+                "id": 80756,
+                "description": null,
+                "amount": 1
+            },
+            {
+                "id": 80787,
+                "description": "Discs of Norgannon",
+                "amount": 1
+            },
+            {
+                "id": 80788,
+                "description": "Toys Like Us",
+                "amount": 1
+            },
+            {
+                "id": 80789,
+                "description": "Waste Not",
+                "amount": 1
+            },
+            {
+                "id": 80790,
+                "description": "Taking The Air Out",
+                "amount": 1
+            },
+            {
+                "id": 80791,
+                "description": "Unprofitable Ventures",
+                "amount": 1
+            },
+            {
+                "id": 80792,
+                "description": "A Direct Approach",
+                "amount": 1
+            },
+            {
+                "id": 80847,
+                "description": "Cogfrenzy's Construction Frenzy",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13556?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13556
+    },
+    "display_order": 111
+}

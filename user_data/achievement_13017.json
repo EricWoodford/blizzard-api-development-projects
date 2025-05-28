@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13017?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13017,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Champion of the Vulpera",
+    "description": "Rescue vulpera in Vol'dun.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68577,
+        "description": "8.0 Vol'dun - Achievement - Champion of the Vulpera (JDA)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68590,
+                "description": "Vulpera rescued",
+                "amount": 50,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13017?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13017
+    },
+    "display_order": 85,
+    "requirements": {
+        "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+        }
+    }
+}

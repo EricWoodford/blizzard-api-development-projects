@@ -1,0 +1,62 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13790?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13790,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Armed for Action",
+    "description": "Construct each of the following weapons with Rocket-Chief Fuselage.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 81355,
+        "description": "Armed for Action",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 81356,
+                "description": "Volatile Blaster",
+                "amount": 1
+            },
+            {
+                "id": 81357,
+                "description": "Ricket's Special Delivery",
+                "amount": 1
+            },
+            {
+                "id": 81358,
+                "description": "Lightning Zap 5000",
+                "amount": 1
+            },
+            {
+                "id": 81359,
+                "description": "Supercollider",
+                "amount": 1
+            },
+            {
+                "id": 81360,
+                "description": "Boltspitter",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13790?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13790
+    },
+    "display_order": 28
+}

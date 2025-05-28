@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14158?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14158,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "It's Not A Tumor!",
+    "description": "Destroy 100 Corruption Tumors in Uldum or Vale of Eternal Blossoms during Black Empire Assaults.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 83549,
+        "description": "8.3 Kill Corruption Tumors",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 83550,
+                "description": null,
+                "amount": 100,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14158?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14158
+    },
+    "display_order": 12
+}

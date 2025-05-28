@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41209?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41209,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15259?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Appearances",
+        "id": 15259
+    },
+    "name": "Dressed to Kill: Battle for Azeroth",
+    "description": "Complete 4 of the Battle for Azeroth appearance achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 170386,
+        "description": "Complete 4 of the Battle for Azeroth appearance achievements listed below.",
+        "amount": 4,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 170387,
+                "description": "New Mog, G'huun This?",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12991?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "New Mog, G'huun This?",
+                    "id": 12991
+                }
+            },
+            {
+                "id": 170388,
+                "description": "Don't Warfront Me",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12993?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Don't Warfront Me",
+                    "id": 12993
+                }
+            },
+            {
+                "id": 170389,
+                "description": "Daz'aling Attire",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13385?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Daz'aling Attire",
+                    "id": 13385
+                }
+            },
+            {
+                "id": 170390,
+                "description": "Tall, Dark, and Sinister",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13433?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Tall, Dark, and Sinister",
+                    "id": 13433
+                }
+            },
+            {
+                "id": 170391,
+                "description": "Under the Seams",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13571?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Under the Seams",
+                    "id": 13571
+                }
+            },
+            {
+                "id": 170392,
+                "description": "Never Lose, Never Choose To",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13585?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Never Lose, Never Choose To",
+                    "id": 13585
+                }
+            },
+            {
+                "id": 170393,
+                "description": "All Eyes On Me",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14058?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "All Eyes On Me",
+                    "id": 14058
+                }
+            },
+            {
+                "id": 170394,
+                "description": "The Eyes Have It",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14059?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Eyes Have It",
+                    "id": 14059
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41209?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41209
+    },
+    "display_order": 44
+}

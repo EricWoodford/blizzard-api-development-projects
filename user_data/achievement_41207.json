@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41207?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41207,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "When the Drust Settles",
+    "description": "Complete the Drustvar achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 170498,
+        "description": "Complete the Drustvar achievements listed below.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 170499,
+                "description": "Adventurer of Drustvar",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12941?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Adventurer of Drustvar",
+                    "id": 12941
+                }
+            },
+            {
+                "id": 170500,
+                "description": "Treasures of Drustvar",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12995?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Treasures of Drustvar",
+                    "id": 12995
+                }
+            },
+            {
+                "id": 170501,
+                "description": "Sausage Sampler",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13087?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sausage Sampler",
+                    "id": 13087
+                }
+            },
+            {
+                "id": 170503,
+                "description": "Drust the Facts, Ma'am",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13064?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Drust the Facts, Ma'am",
+                    "id": 13064
+                }
+            },
+            {
+                "id": 170504,
+                "description": "Cursed Game Hunter",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13094?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Cursed Game Hunter",
+                    "id": 13094
+                }
+            },
+            {
+                "id": 170505,
+                "description": "Everything Old Is New Again",
+                "amount": 1,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13082?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Everything Old Is New Again",
+                    "id": 13082
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41207?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41207
+    },
+    "display_order": 7
+}

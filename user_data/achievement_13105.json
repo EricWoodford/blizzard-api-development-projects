@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13105?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13105,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Mythic: Rotting Mire",
+    "description": "Achieve victory in an expedition to Rotting Mire on Mythic difficulty.",
+    "points": 10,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 69252,
+        "description": "8.0 Islands - Complete and Rotting Mythic",
+        "amount": 0
+    },
+    "prerequisite_achievement": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13104?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Heroic: Rotting Mire",
+        "id": 13104
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13105?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13105
+    },
+    "display_order": 11
+}

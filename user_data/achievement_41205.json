@@ -1,0 +1,125 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/41205?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 41205,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Sound Off",
+    "description": "Complete the Tiragarde Sound achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 170482,
+        "description": "Complete the Tiragarde Sound achievements listed below.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 170483,
+                "description": "Adventurer of Tiragarde Sound",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12939?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Adventurer of Tiragarde Sound",
+                    "id": 12939
+                }
+            },
+            {
+                "id": 170484,
+                "description": "Treasures of Tiragarde Sound",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12852?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Treasures of Tiragarde Sound",
+                    "id": 12852
+                }
+            },
+            {
+                "id": 170485,
+                "description": "Bless the Rains Down in Freehold",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13050?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Bless the Rains Down in Freehold",
+                    "id": 13050
+                }
+            },
+            {
+                "id": 170486,
+                "description": "Sailed in Sea Minor",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13057?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Sailed in Sea Minor",
+                    "id": 13057
+                }
+            },
+            {
+                "id": 170487,
+                "description": "Three Sheets to the Wind",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13061?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Three Sheets to the Wind",
+                    "id": 13061
+                }
+            },
+            {
+                "id": 170488,
+                "description": "Kul Tiran Up the Dance Floor",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13058?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Kul Tiran Up the Dance Floor",
+                    "id": 13058
+                }
+            },
+            {
+                "id": 170507,
+                "description": "The Long Con",
+                "amount": 1,
+                "faction": {
+                    "type": "ALLIANCE",
+                    "name": "Alliance"
+                },
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13049?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Long Con",
+                    "id": 13049
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/41205?namespace=static-11.1.5_60179-us"
+        },
+        "id": 41205
+    },
+    "display_order": 5
+}

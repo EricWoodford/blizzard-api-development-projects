@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14058?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14058,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15259?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Appearances",
+        "id": 15259
+    },
+    "name": "All Eyes On Me",
+    "description": "Collect an armor set from Ny'alotha, the Waking City.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 83219,
+        "description": "Collect a Tier 25 Set on at least 1 class.",
+        "amount": 1
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14058?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14058
+    },
+    "display_order": 43
+}

@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13699?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13699,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Periodic Destruction",
+    "description": "Defeat all of the creations of Mardivas's Laboratory in Nazjatar.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 80828,
+        "description": "Defeat all of the creations of Mardivas's Laboratory in Nazjatar.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 80829,
+                "description": "Arcane Amalgamation",
+                "amount": 1
+            },
+            {
+                "id": 80830,
+                "description": "Watery Amalgamation",
+                "amount": 1
+            },
+            {
+                "id": 80831,
+                "description": "Burning Amalgamation",
+                "amount": 1
+            },
+            {
+                "id": 80832,
+                "description": "Dusty Amalgamation",
+                "amount": 1
+            },
+            {
+                "id": 80833,
+                "description": "Zomera",
+                "amount": 1
+            },
+            {
+                "id": 80834,
+                "description": "Omus",
+                "amount": 1
+            },
+            {
+                "id": 80835,
+                "description": "Osgen",
+                "amount": 1
+            },
+            {
+                "id": 80836,
+                "description": "Moghiea",
+                "amount": 1
+            },
+            {
+                "id": 80837,
+                "description": "Xue",
+                "amount": 1
+            },
+            {
+                "id": 80838,
+                "description": "Ungormath",
+                "amount": 1
+            },
+            {
+                "id": 80839,
+                "description": "Spawn of Salgos",
+                "amount": 1
+            },
+            {
+                "id": 80840,
+                "description": "Herald of Salgos",
+                "amount": 1
+            },
+            {
+                "id": 80841,
+                "description": "Salgos the Eternal",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13699?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13699
+    },
+    "display_order": 81
+}

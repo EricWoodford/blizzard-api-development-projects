@@ -1,0 +1,57 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13062?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13062,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Let's Bee Friends",
+    "description": "Feed Bumbles in Stormsong Valley the Mildenhall Growth Formula.",
+    "points": 5,
+    "is_account_wide": false,
+    "criteria": {
+        "id": 68935,
+        "description": "8.0 Stormsong - Let's Bee Friends (CAM)",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68936,
+                "description": "Feed Bumbles the Mildenhall Growth Formula.",
+                "amount": 7,
+                "show_progress_bar": true
+            }
+        ]
+    },
+    "reward_description": "Pet: Bumbles",
+    "reward_item": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/163776?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Large Honeycomb Cluster",
+        "id": 163776
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13062?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13062
+    },
+    "display_order": 63,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}

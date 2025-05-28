@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12588?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12588,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Eat Your Greens",
+    "description": "Sample all of the edible plants within Nazmir.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 66859,
+        "description": "Eat Your Greens",
+        "amount": 1,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 66860,
+                "description": "Saurolisk Tail Nibs",
+                "amount": 1
+            },
+            {
+                "id": 66861,
+                "description": "Bwonsamdi's Tears",
+                "amount": 1
+            },
+            {
+                "id": 66862,
+                "description": "Gnarl Root",
+                "amount": 1
+            },
+            {
+                "id": 66865,
+                "description": "Sapphire Amaraina",
+                "amount": 1
+            },
+            {
+                "id": 66870,
+                "description": "Krag'wa's Ire",
+                "amount": 1
+            },
+            {
+                "id": 66871,
+                "description": "Stonebloom",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12588?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12588
+    },
+    "display_order": 46
+}

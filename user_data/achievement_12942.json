@@ -1,0 +1,197 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12942?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12942,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Adventurer of Nazmir",
+    "description": "Complete the following special encounters in Nazmir.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68699,
+        "description": "Vignettes: Nazmir",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68700,
+                "description": "Ancient Jawbreaker",
+                "amount": 0
+            },
+            {
+                "id": 68701,
+                "description": "Azerite Infused Elemental",
+                "amount": 0
+            },
+            {
+                "id": 68702,
+                "description": "Azerite Infused Slag",
+                "amount": 0
+            },
+            {
+                "id": 68703,
+                "description": "Blood Priest Xak'lar",
+                "amount": 0
+            },
+            {
+                "id": 68704,
+                "description": "Uroku the Bound",
+                "amount": 0
+            },
+            {
+                "id": 68705,
+                "description": "King Kooba",
+                "amount": 0
+            },
+            {
+                "id": 68706,
+                "description": "Chag's Challenge",
+                "amount": 0
+            },
+            {
+                "id": 68707,
+                "description": "Corpse Bringer Yal'kar",
+                "amount": 0
+            },
+            {
+                "id": 68708,
+                "description": "Cursed Chest",
+                "amount": 0
+            },
+            {
+                "id": 68709,
+                "description": "Gwugnug the Cursed",
+                "amount": 0
+            },
+            {
+                "id": 68710,
+                "description": "Glompmaw",
+                "amount": 0
+            },
+            {
+                "id": 68711,
+                "description": "Gutrip the Hungry",
+                "amount": 0
+            },
+            {
+                "id": 68712,
+                "description": "Queen Tzxi'kik",
+                "amount": 0
+            },
+            {
+                "id": 68713,
+                "description": "Infected Direhorn",
+                "amount": 0
+            },
+            {
+                "id": 68714,
+                "description": "Jax'teb the Reanimated",
+                "amount": 0
+            },
+            {
+                "id": 68715,
+                "description": "Juba the Scarred",
+                "amount": 0
+            },
+            {
+                "id": 68716,
+                "description": "Kal'draxa",
+                "amount": 0
+            },
+            {
+                "id": 68717,
+                "description": "Krubbs",
+                "amount": 0
+            },
+            {
+                "id": 68718,
+                "description": "Lost Scroll",
+                "amount": 0
+            },
+            {
+                "id": 68719,
+                "description": "Bajiatha",
+                "amount": 0
+            },
+            {
+                "id": 68720,
+                "description": "Scout Skrasniss",
+                "amount": 0
+            },
+            {
+                "id": 68721,
+                "description": "Scrounger Patriarch",
+                "amount": 0
+            },
+            {
+                "id": 68722,
+                "description": "Tainted Guardian",
+                "amount": 0
+            },
+            {
+                "id": 68723,
+                "description": "Totem Maker Jash'ga",
+                "amount": 0
+            },
+            {
+                "id": 68725,
+                "description": "Urn of Agussu",
+                "amount": 0
+            },
+            {
+                "id": 68726,
+                "description": "Venomjaw",
+                "amount": 0
+            },
+            {
+                "id": 68727,
+                "description": "Wardrummer Zurula",
+                "amount": 0
+            },
+            {
+                "id": 68728,
+                "description": "Xu'ba the Bone Collector",
+                "amount": 0
+            },
+            {
+                "id": 68729,
+                "description": "Za'amar the Queen's Blade",
+                "amount": 0
+            },
+            {
+                "id": 68730,
+                "description": "Zanxib the Engorged",
+                "amount": 0
+            },
+            {
+                "id": 68731,
+                "description": "Lo'kuno",
+                "amount": 0
+            },
+            {
+                "id": 68732,
+                "description": "Mala'kili and Rohnkor",
+                "amount": 0
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12942?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12942
+    },
+    "display_order": 25
+}

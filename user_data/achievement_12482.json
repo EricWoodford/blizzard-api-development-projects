@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12482?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12482,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Get Hek'd",
+    "description": "Complete the following tasks for Jani in Zandalar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 65810,
+        "description": "Achievement - Get Hek'd",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 65812,
+                "description": "Golden Ravasaur Egg",
+                "amount": 1
+            },
+            {
+                "id": 65817,
+                "description": "Vilescale Pearl",
+                "amount": 1
+            },
+            {
+                "id": 65822,
+                "description": "Charged Ranishu Antennae",
+                "amount": 1
+            },
+            {
+                "id": 65813,
+                "description": "Big Hunter Mon",
+                "amount": 1
+            },
+            {
+                "id": 65818,
+                "description": "Snapjaw Tail",
+                "amount": 1
+            },
+            {
+                "id": 65823,
+                "description": "Polished Ringhorn Hoof",
+                "amount": 1
+            },
+            {
+                "id": 65814,
+                "description": "The Great Hat Robbery",
+                "amount": 1
+            },
+            {
+                "id": 65819,
+                "description": "Nazwathan Relic",
+                "amount": 1
+            },
+            {
+                "id": 65824,
+                "description": "Sturdy Redrock Jaw",
+                "amount": 1
+            },
+            {
+                "id": 65815,
+                "description": "Feathered Viper Scale",
+                "amount": 1
+            },
+            {
+                "id": 65820,
+                "description": "Taking the Loa Road",
+                "amount": 1
+            },
+            {
+                "id": 65825,
+                "description": "Saurid Surprise",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12482?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12482
+    },
+    "display_order": 42
+}

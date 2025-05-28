@@ -1,0 +1,162 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13132?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13132,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Helping Hand",
+    "description": "Rescue 15 of the explorers on Island Expeditions listed below.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69381,
+        "description": "Rescue 15 of the explorers on Island Expeditions listed below.",
+        "amount": 15,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 69382,
+                "description": "Valero",
+                "amount": 1
+            },
+            {
+                "id": 69383,
+                "description": "Brunold",
+                "amount": 1
+            },
+            {
+                "id": 69384,
+                "description": "Aerin Skyhammer",
+                "amount": 1
+            },
+            {
+                "id": 69385,
+                "description": "Spooner the Scalawag",
+                "amount": 1
+            },
+            {
+                "id": 69386,
+                "description": "Royston P. Crutchley III",
+                "amount": 1
+            },
+            {
+                "id": 69387,
+                "description": "Tinny",
+                "amount": 1
+            },
+            {
+                "id": 69388,
+                "description": "Tweets Lightsprocket",
+                "amount": 1
+            },
+            {
+                "id": 69389,
+                "description": "Gimzy Trickelbank",
+                "amount": 1
+            },
+            {
+                "id": 69390,
+                "description": "Glint-Eyed Frankie",
+                "amount": 1
+            },
+            {
+                "id": 69391,
+                "description": "Two-Socks",
+                "amount": 1
+            },
+            {
+                "id": 69392,
+                "description": "Apprentice Karyn",
+                "amount": 1
+            },
+            {
+                "id": 69393,
+                "description": "Grubby Beard",
+                "amount": 1
+            },
+            {
+                "id": 69394,
+                "description": "Sylvester",
+                "amount": 1
+            },
+            {
+                "id": 69395,
+                "description": "Waterspeaker Deshi",
+                "amount": 1
+            },
+            {
+                "id": 69396,
+                "description": "Flickerwick",
+                "amount": 1
+            },
+            {
+                "id": 69397,
+                "description": "Burgle",
+                "amount": 1
+            },
+            {
+                "id": 69398,
+                "description": "Vizio the Cartographer",
+                "amount": 1
+            },
+            {
+                "id": 69399,
+                "description": "Gregg",
+                "amount": 1
+            },
+            {
+                "id": 69400,
+                "description": "Old Li",
+                "amount": 1
+            },
+            {
+                "id": 69401,
+                "description": "Yuke",
+                "amount": 1
+            },
+            {
+                "id": 69402,
+                "description": "Longpaws",
+                "amount": 1
+            },
+            {
+                "id": 69403,
+                "description": "Nizhoni",
+                "amount": 1
+            },
+            {
+                "id": 69404,
+                "description": "Taz'anga",
+                "amount": 1
+            },
+            {
+                "id": 69405,
+                "description": "Manape",
+                "amount": 1
+            },
+            {
+                "id": 69406,
+                "description": "Arwan Beastheart",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13132?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13132
+    },
+    "display_order": 62
+}

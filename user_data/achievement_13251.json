@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13251?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13251,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "In Teldrassil's Shadow",
+    "description": "Complete the Tyrande's Ascension storyline.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 71483,
+        "description": null,
+        "amount": 1
+    },
+    "reward_description": "Reward: 'Night Warrior' Night Elf Customization",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13251?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13251
+    },
+    "display_order": 45,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}

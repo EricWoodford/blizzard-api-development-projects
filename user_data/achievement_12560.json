@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12560?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12560,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Explore Vol'dun",
+    "description": "Explore Vol'dun, revealing the covered areas of the world map.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68889,
+        "description": "Explore Vol'dun, revealing the covered areas of the world map.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68890,
+                "description": "Atul'Aman",
+                "amount": 1
+            },
+            {
+                "id": 68891,
+                "description": "Darkwood Shoal",
+                "amount": 1
+            },
+            {
+                "id": 68892,
+                "description": "Port of Zem'lan",
+                "amount": 1
+            },
+            {
+                "id": 68893,
+                "description": "Redrock Harbor",
+                "amount": 1
+            },
+            {
+                "id": 68894,
+                "description": "Shatterstone Harbor",
+                "amount": 1
+            },
+            {
+                "id": 68895,
+                "description": "Slithering Gulch",
+                "amount": 1
+            },
+            {
+                "id": 68899,
+                "description": "Temple of Akunda",
+                "amount": 1
+            },
+            {
+                "id": 68900,
+                "description": "Terrace of the Devoted",
+                "amount": 1
+            },
+            {
+                "id": 68901,
+                "description": "The Bone Pit",
+                "amount": 1
+            },
+            {
+                "id": 68902,
+                "description": "The Brine Basin",
+                "amount": 1
+            },
+            {
+                "id": 68903,
+                "description": "The Cracked Coast",
+                "amount": 1
+            },
+            {
+                "id": 68904,
+                "description": "Tortaka Refuge",
+                "amount": 1
+            },
+            {
+                "id": 68905,
+                "description": "Whistlebloom Oasis",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12560?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12560
+    },
+    "display_order": 19
+}

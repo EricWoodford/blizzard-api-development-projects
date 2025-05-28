@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12807?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12807,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/168?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Dungeons & Raids",
+        "id": 168
+    },
+    "name": "Battle for Azeroth Dungeon Hero",
+    "description": "Complete the Battle for Azeroth Heroic dungeon achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 67732,
+        "description": null,
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 67733,
+                "description": "Heroic: The Temple of Sethraliss",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12505?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: The Temple of Sethraliss",
+                    "id": 12505
+                }
+            },
+            {
+                "id": 67734,
+                "description": "Heroic: Underrot",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12501?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Underrot",
+                    "id": 12501
+                }
+            },
+            {
+                "id": 67735,
+                "description": "Heroic: Waycrest Manor",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12484?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Waycrest Manor",
+                    "id": 12484
+                }
+            },
+            {
+                "id": 67867,
+                "description": "Heroic: Freehold",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12832?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Freehold",
+                    "id": 12832
+                }
+            },
+            {
+                "id": 67868,
+                "description": "Heroic: Shrine of the Storm",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12837?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Shrine of the Storm",
+                    "id": 12837
+                }
+            },
+            {
+                "id": 67869,
+                "description": "Heroic: Atal'Dazar",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12825?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Atal'Dazar",
+                    "id": 12825
+                }
+            },
+            {
+                "id": 67870,
+                "description": "Heroic: Tol Dagor",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12841?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: Tol Dagor",
+                    "id": 12841
+                }
+            },
+            {
+                "id": 67871,
+                "description": "Heroic: The MOTHERLODE!!",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12845?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Heroic: The MOTHERLODE!!",
+                    "id": 12845
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12807?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12807
+    },
+    "display_order": 45
+}

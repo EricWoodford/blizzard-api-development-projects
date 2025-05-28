@@ -1,0 +1,121 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/40959?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 40959,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15284
+    },
+    "name": "Black Empire State of Mind",
+    "description": "Repel the Black Empire by completing the achievements listed below.",
+    "points": 30,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 170435,
+        "description": "Repel the Black Empire by completing the achievements listed below.",
+        "amount": 4,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 170436,
+                "description": "Defend the Vale",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14154?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Defend the Vale",
+                    "id": 14154
+                }
+            },
+            {
+                "id": 170437,
+                "description": "Uldum Under Assault",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14153?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Uldum Under Assault",
+                    "id": 14153
+                }
+            },
+            {
+                "id": 170438,
+                "description": "The Rajani",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14156?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "The Rajani",
+                    "id": 14156
+                }
+            },
+            {
+                "id": 170439,
+                "description": "Uldum Accord",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14155?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Uldum Accord",
+                    "id": 14155
+                }
+            },
+            {
+                "id": 170440,
+                "description": "Combating the Corruption",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14159?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Combating the Corruption",
+                    "id": 14159
+                }
+            },
+            {
+                "id": 170441,
+                "description": "It's Not A Tumor!",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14158?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "It's Not A Tumor!",
+                    "id": 14158
+                }
+            },
+            {
+                "id": 170442,
+                "description": "All Consuming",
+                "amount": 1,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/14161?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "All Consuming",
+                    "id": 14161
+                }
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/40959?namespace=static-11.1.5_60179-us"
+        },
+        "id": 40959
+    },
+    "display_order": 86
+}

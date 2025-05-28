@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12872?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12872,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15308?namespace=static-11.1.5_60179-us"
+        },
+        "name": "War Effort",
+        "id": 15308
+    },
+    "name": "The Dirty Five",
+    "description": "Raise 5 War Campaign Champions to Epic Level.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68084,
+        "description": "8.0 Missions - Raise all champions to epic",
+        "amount": 0
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12872?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12872
+    },
+    "display_order": 8
+}

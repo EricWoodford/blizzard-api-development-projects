@@ -1,0 +1,177 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13134?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13134,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Island Expeditions",
+        "id": 15307
+    },
+    "name": "Expedition Leader",
+    "description": "Complete all of the Island Expeditions achievements listed below.",
+    "points": 20,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 69453,
+        "description": "Complete all of the Island Expeditions achievements.",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 69454,
+                "description": "Island Conqueror",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13122?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Island Conqueror",
+                    "id": 13122
+                }
+            },
+            {
+                "id": 69455,
+                "description": "Azerite Admiral",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13125?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Azerite Admiral",
+                    "id": 13125
+                }
+            },
+            {
+                "id": 69456,
+                "description": "Give Me The Energy",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13126?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Give Me The Energy",
+                    "id": 13126
+                }
+            },
+            {
+                "id": 69457,
+                "description": "Tell Me A Tale",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13127?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Tell Me A Tale",
+                    "id": 13127
+                }
+            },
+            {
+                "id": 69458,
+                "description": "Metal Detector",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13124?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Metal Detector",
+                    "id": 13124
+                }
+            },
+            {
+                "id": 69459,
+                "description": "I'm Here for the Pets",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13128?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "I'm Here for the Pets",
+                    "id": 13128
+                }
+            },
+            {
+                "id": 69460,
+                "description": "Helping Hand",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/13132?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Helping Hand",
+                    "id": 13132
+                }
+            },
+            {
+                "id": 69462,
+                "description": "Expert Expeditioner",
+                "amount": 0,
+                "achievement": {
+                    "key": {
+                        "href": "https://us.api.blizzard.com/data/wow/achievement/12595?namespace=static-11.1.5_60179-us"
+                    },
+                    "name": "Expert Expeditioner",
+                    "id": 12595
+                }
+            },
+            {
+                "id": 69463,
+                "description": "Team Deathmatch",
+                "amount": 1,
+                "operator": {
+                    "type": "COMPLETE_AT_LEAST",
+                    "name": "Complete At Least"
+                },
+                "child_criteria": [
+                    {
+                        "id": 69464,
+                        "description": "Team Deathmatch",
+                        "amount": 0,
+                        "faction": {
+                            "type": "HORDE",
+                            "name": "Horde"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13135?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Team Deathmatch",
+                            "id": 13135
+                        }
+                    },
+                    {
+                        "id": 69465,
+                        "description": "Team Deathmatch",
+                        "amount": 0,
+                        "faction": {
+                            "type": "ALLIANCE",
+                            "name": "Alliance"
+                        },
+                        "achievement": {
+                            "key": {
+                                "href": "https://us.api.blizzard.com/data/wow/achievement/13133?namespace=static-11.1.5_60179-us"
+                            },
+                            "name": "Team Deathmatch",
+                            "id": 13133
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "reward_description": "Title: Expedition Leader",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13134?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13134
+    },
+    "display_order": 65
+}

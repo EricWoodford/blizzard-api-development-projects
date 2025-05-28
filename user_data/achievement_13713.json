@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13713?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13713,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Nothing To Scry About",
+    "description": "Find 100 treasures using a Scrying Stone in Nazjatar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 80989,
+        "description": "Find 100 treasures using a Scrying Stone in Nazjatar.",
+        "amount": 100,
+        "show_progress_bar": true
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13713?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13713
+    },
+    "display_order": 82
+}
