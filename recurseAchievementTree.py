@@ -105,8 +105,7 @@ def fetch_achievement_tree(access_token, REGION, LOCALE, achievement_id):
     def recurse_children(achievement_id, parent_id=None):
        # print(f"Fetching children for achievement ID: {achievement_id} from parent ID: {parent_id}")
         achievement_data = get_achievement_from_id(access_token, REGION, achievement_id, LOCALE)
-        if not achievement_data:
-         #   print(f"Failed to fetch data for achievement ID: {achievement_id}")
+        if not achievement_data:         
             return []
         # if achievement_data doesn't have criteria, return an empty list
         if 'criteria' not in achievement_data or not achievement_data.get('criteria', {}).get('child_criteria', []):
@@ -119,15 +118,13 @@ def fetch_achievement_tree(access_token, REGION, LOCALE, achievement_id):
             if 'achievement' in child:
                 child_ids.append(child['achievement']['id'])
                 child_ids.extend(recurse_children(child['achievement']['id'], achievement_id))
-
         achievement_hash[achievement_id].extend(child_ids)
         return child_ids        
 
     full_tree = {
         "id": achievement_id,
         "children": [recurse_children(achievement_id)]
-    }
-    #print (f"hash:{achievement_hash}" )
+    }    
     return json.dumps(full_tree, indent=10)
 
 

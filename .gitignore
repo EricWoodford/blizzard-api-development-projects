@@ -1,18 +1,3 @@
 .env
-Set_Stormrage_A Farewell to Arms_achievement_report.html
-Set_Stormrage_A Farewell to Arms_achievement_report.json
-Set_Stormrage_A World Awoken_achievement_report.html
-Set_Stormrage_A World Awoken_achievement_report.json
-Set_Stormrage_character_achievements.json
-Erlenmeyer_Stormrage_A Farewell to Arms_achievement_report.json
-Erlenmeyer_Stormrage_A Farewell to Arms_achievement_report.html
-Elkagorasa_Malfurion_character_achievements.json
-Elkagorasa_Malfurion_A Farewell to Arms_achievement_report.json
-Elkagorasa_Malfurion_A Farewell to Arms_achievement_report.html
-Elforn_Stormrage_A Farewell to Arms_achievement_report.json
-Elforn_Stormrage_A Farewell to Arms_achievement_report.html
-Cazenovia_Stormrage_character_achievements.json
-Cazenovia_Stormrage_A World Awoken_achievement_report.json
-Cazenovia_Stormrage_A Farewell to Arms_achievement_report.json
-Cazenovia_Stormrage_A World Awoken_achievement_report.html
-Cazenovia_Stormrage_A Farewell to Arms_achievement_report.html
+*.html
+*.json
