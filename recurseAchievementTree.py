@@ -1,28 +1,20 @@
-# developer portal  https://develop.battle.net/access/clients
+# reference: developer portal  https://develop.battle.net/access/clients
 
+from authentication import get_access_token, CLIENT_ID, CLIENT_SECRET
 import requests
 from json2html import json2html
 import json
 import os
 from collections import defaultdict
 
-# read credentials from .env file
-from dotenv import load_dotenv
-load_dotenv()
-CLIENT_ID = os.getenv("BLIZZARD_CLIENT_ID")
-CLIENT_SECRET = os.getenv("BLIZZARD_CLIENT_SECRET")
-
-
-# Blizzard API credentials
-TOKEN_URL = "https://oauth.battle.net/token"
 
 # Blizzard API constants
 REGION = "us"
 LOCALE = "en_US"
 
 # Character and realm information
-CHARACTER_NAME =  "Elkagorasa" 
-REALM_NAME = "Malfurion"
+CHARACTER_NAME =  "Erlenmeyer" 
+REALM_NAME = "Stormrage"
 # Achievement ID to start with
 #achievement_id = "19458"  # a world awoken
 achievement_id = "40953" # a farewell to arms
@@ -31,21 +23,6 @@ achievement_id = "40953" # a farewell to arms
 achievement_hash = defaultdict(list)
 
 
-# get authentication token
-# https://develop.battle.net/documentation/guides/getting-started
-def get_access_token(client_id, client_secret):
-    """
-    Obtain an OAuth access token from Blizzard API.
-    """
-    response = requests.post(
-        TOKEN_URL,
-        data={"grant_type": "client_credentials"},
-        auth=(client_id, client_secret)
-    )
-    if response.status_code == 200:
-        return response.json().get("access_token")
-    else:
-        raise Exception(f"Failed to get access token: {response.status_code} {response.text}")
 
 # return specific achievement info from achievement id
 def get_achievement_from_id(access_token, region, achievement_id, locale):    
@@ -177,24 +154,24 @@ if __name__ == "__main__":
     filtered_dict = {k: v for k, v in achievement_hash.items() if v not in (None, [], "")}        
     short_list = list(filtered_dict.keys())
 
+    # let's prune some branches off the achievement tree
     for achievement_id in short_list:
-       # print(f"SL- Checking achievement {achievement_id}")
-        for character_achievement in character_achievements.get("achievements", []):           # 
-            #print(character_achievement.get("achievement", {}).get("id"))
+        for character_achievement in character_achievements.get("achievements", []):    
             if str(character_achievement.get("achievement", {}).get("id")) == str(achievement_id):
-                #print(json.dumps(character_achievement, indent=4))
                 if character_achievement.get("criteria", {}).get("is_completed", {}) != True:          
                     not_completed_achievements.append(achievement_id)
                     if achievement_id in all_achievements:
                             all_achievements.remove(achievement_id)     
                 else:
-                    # pull child achivements form achievement_hash and remove them from the achievement_tree 
+                    # pull list of child achievements form achievement_hash and remove them from the achievement_tree 
                     for child_achievement_id in achievement_hash[str(achievement_id)]:
-                       # print(f"Removing child achievement {child_achievement_id} from all_achievements")
                         if child_achievement_id in all_achievements:
                             all_achievements.remove(child_achievement_id)               
                 break
-    #print(f"Total achievements to check: {len(all_achievements)}")
+
+    
+    # loop throught the remaining all_achievements and see if they are not completed in the character_achievements
+    # if they are not completed, add them to the not_completed_achievements list
     for achievement_id in all_achievements:             
         for character_achievement in character_achievements.get("achievements", []):           # 
             if character_achievement.get("achievement", {}).get("id") == achievement_id:                
@@ -243,25 +220,25 @@ if __name__ == "__main__":
 
                 }
                 achievement_report.append(achievement_entry)
+
+    # start outputting the report
     achievement_report_file = f"./{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.html"
     achievement_report_json = f"./{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.json"
     with open(achievement_report_json, "w") as file:
         json.dump(achievement_report, file, indent=4)    
 
-    # convert the achievement_report to html
-    html_report = json2html.convert(json=achievement_report, table_attributes="border=1", escape=False) # , table_style="width:100%; border-collapse: collapse;")
+    # todays date for the report
+    from datetime import datetime
+    today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # convert the achievement_report to html  
+    html_report = json2html.convert(json=achievement_report, table_attributes="border=1", escape=False)
+    # add quick header and footer to the report
+    html_report = f"<h2>{CHARACTER_NAME} {REALM_NAME}</h2><br /> {parent_achievement_name} <br />generated: {today} <br />"+ html_report
+    html_report = html_report+ f"<br /> Total achievements in report: {len(achievement_report)}"
+  
     with open(achievement_report_file, "w") as file:
         file.write(html_report)
   
-  
-    
-    #import json2table
-    #table_attributes = {"border": "1"}  # Ensure it's a dictionary    
-    #html_output = json2table.convert(achievement_report, build_direction="LEFT_TO_RIGHT", table_attributes=table_attributes)
-
-
-    #print(html_output)
-
-
     print(f"Achievement report saved to {achievement_report_file}")
     print(f"Total achievements in report: {len(achievement_report)}")   
