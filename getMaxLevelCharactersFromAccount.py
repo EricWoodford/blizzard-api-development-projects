@@ -8,9 +8,6 @@ from collections import defaultdict
 
 
 # Blizzard API credentials
-CLIENT_ID = "a3d019a5f8f54f01be450e5dd7fab98e"
-CLIENT_SECRET = "JsHYM4Hd7wqXf1fsKpGGffAJV28sQ4ZP"
-TOKEN_URL = "https://oauth.battle.net/token"
 # Blizzard API constants
 REGION = "us"
 LOCALE = "en_US"
