@@ -1,4 +1,2 @@
 .env
-*.html
-*.json
 wowRealmStatusCheck.py
