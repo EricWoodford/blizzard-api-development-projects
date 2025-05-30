@@ -1,42 +1,11 @@
 # developer portal  https://develop.battle.net/access/clients
 
 import requests
-from json2html import json2html
 import json
 import os
-from collections import defaultdict
 
 
-# Blizzard API credentials
-# Blizzard API constants
-REGION = "us"
-LOCALE = "en_US"
-
-# Character and realm information
-CHARACTER_NAME =  "Eruptan"
-REALM_NAME = "Stormrage"
-# Achievement hash to store achievement IDs and their children
-achievement_hash = defaultdict(list)
-# Achievement ID to start with
-achievement_id = "19458" 
-
-# get authentication token
-# https://develop.battle.net/documentation/guides/getting-started
-def get_access_token(client_id, client_secret):
-    """
-    Obtain an OAuth access token from Blizzard API.
-    """
-    response = requests.post(
-        TOKEN_URL,
-        data={"grant_type": "client_credentials"},
-        auth=(client_id, client_secret)
-    )
-    if response.status_code == 200:
-        return response.json().get("access_token")
-    else:
-        raise Exception(f"Failed to get access token: {response.status_code} {response.text}")
-
-
+from authentication import get_access_token, CLIENT_ID, CLIENT_SECRET
 
 def get_all_max_level_characters(access_token): 
     headers = {"Authorization": f"Bearer {access_token}"}  
