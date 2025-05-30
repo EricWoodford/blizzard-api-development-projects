@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/12852?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 12852,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Treasures of Tiragarde Sound",
+    "description": "Discover the hidden treasures of Tiragarde Sound.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 67942,
+        "description": "Unique Treasures: Tiragarde Sound",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 67943,
+                "description": "Hay Covered Chest",
+                "amount": 1
+            },
+            {
+                "id": 67944,
+                "description": "Cutwater Treasure Chest",
+                "amount": 1
+            },
+            {
+                "id": 67945,
+                "description": "Precarious Noble Cache",
+                "amount": 1
+            },
+            {
+                "id": 67946,
+                "description": "Forgotten Smuggler's Stash",
+                "amount": 1
+            },
+            {
+                "id": 67947,
+                "description": "Scrimshaw Cache",
+                "amount": 1
+            },
+            {
+                "id": 67948,
+                "description": "Secret of the Depths",
+                "amount": 1
+            },
+            {
+                "id": 67949,
+                "description": "Soggy Treasure Map",
+                "amount": 1
+            },
+            {
+                "id": 67950,
+                "description": "Faded Treasure Map",
+                "amount": 1
+            },
+            {
+                "id": 67951,
+                "description": "Yellowed Treasure Map",
+                "amount": 1
+            },
+            {
+                "id": 67952,
+                "description": "Singed Treasure Map",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/12852?namespace=static-11.1.5_60179-us"
+        },
+        "id": 12852
+    },
+    "display_order": 27
+}

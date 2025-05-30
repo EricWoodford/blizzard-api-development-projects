@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13686?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13686,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Junkyard Melomaniac",
+    "description": "Unlock the Rustbolt Gramophone and all of its musical tracks.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 80579,
+        "description": "8.2 Mechagon - Achievement - Junkyard Melomaniac (JDA)",
+        "amount": 100,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 80580,
+                "description": "Ode to Tinkertown",
+                "amount": 1
+            },
+            {
+                "id": 80581,
+                "description": "Gnomeregan Forever",
+                "amount": 1
+            },
+            {
+                "id": 80582,
+                "description": "Mimiron's Brainstorm",
+                "amount": 1
+            },
+            {
+                "id": 80583,
+                "description": "Battle of Gnomeregan",
+                "amount": 1
+            },
+            {
+                "id": 80584,
+                "description": "Depths of Ulduar",
+                "amount": 1
+            },
+            {
+                "id": 80585,
+                "description": "Triumph of Gnomeregan",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13686?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13686
+    },
+    "display_order": 94
+}

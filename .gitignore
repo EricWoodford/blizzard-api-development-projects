@@ -1,4 +1,6 @@
 .env
 .gitignore
 NotSynced/
-
+Character_Reports/
+acheveivement_data/
+user_data/

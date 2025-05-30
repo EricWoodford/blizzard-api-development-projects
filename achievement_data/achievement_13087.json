@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13087?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13087,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Sausage Sampler",
+    "description": "Eat the following sausages from Drustvar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68954,
+        "description": "8.0 Drustvar  - Sausage Sampler Achievement - KRB",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68955,
+                "description": "Fried Boar Sausage",
+                "amount": 1
+            },
+            {
+                "id": 68956,
+                "description": "Goldshire Farms Smoked Sausage",
+                "amount": 1
+            },
+            {
+                "id": 68957,
+                "description": "Heartsbane Hexwurst",
+                "amount": 1
+            },
+            {
+                "id": 68958,
+                "description": "Roland's Famous Frankfurter",
+                "amount": 1
+            },
+            {
+                "id": 68959,
+                "description": "Rosco Fryer's Mostly-Meat Brat",
+                "amount": 1
+            },
+            {
+                "id": 68960,
+                "description": "Timmy Gene Sunrise Pork",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13087?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13087
+    },
+    "display_order": 36
+}

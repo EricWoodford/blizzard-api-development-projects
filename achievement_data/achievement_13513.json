@@ -1,0 +1,73 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13513?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13513,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15248?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Mounts",
+        "id": 15248
+    },
+    "name": "Available in Eight Colors",
+    "description": "Collect all the paint colors for the X-995 Mechanocat.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 79368,
+        "description": "Achievement - Available in Eight Colors",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 79370,
+                "description": "Big-ol Bronze",
+                "amount": 0
+            },
+            {
+                "id": 79369,
+                "description": "Fel Mint Green",
+                "amount": 0
+            },
+            {
+                "id": 79373,
+                "description": "Mechagon Gold",
+                "amount": 0
+            },
+            {
+                "id": 79374,
+                "description": "Copper Trim",
+                "amount": 0
+            },
+            {
+                "id": 79375,
+                "description": "Lemonade Steel",
+                "amount": 0
+            },
+            {
+                "id": 79376,
+                "description": "Fireball Red",
+                "amount": 0
+            },
+            {
+                "id": 79377,
+                "description": "Overload Orange",
+                "amount": 0
+            }
+        ]
+    },
+    "reward_description": "Paint Color: Battletorn Blue",
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13513?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13513
+    },
+    "display_order": 2
+}

@@ -1,0 +1,217 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13470?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13470,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Rest In Pistons",
+    "description": "Complete the following special encounters in Mechagon.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 79759,
+        "description": "8.2 Mechagon - Kill all Rares Mechagon",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 79764,
+                "description": "Mechagonian Nullifier",
+                "amount": 1
+            },
+            {
+                "id": 79765,
+                "description": "The Scrap King",
+                "amount": 1
+            },
+            {
+                "id": 79766,
+                "description": "Mecharantuala",
+                "amount": 1
+            },
+            {
+                "id": 79769,
+                "description": "Jawbreaker",
+                "amount": 1
+            },
+            {
+                "id": 79770,
+                "description": "Paol Pondwader",
+                "amount": 1
+            },
+            {
+                "id": 79771,
+                "description": "Rumblerocks",
+                "amount": 1
+            },
+            {
+                "id": 79772,
+                "description": "Arachnoid Harvester",
+                "amount": 1
+            },
+            {
+                "id": 79773,
+                "description": "Killsaw",
+                "amount": 1
+            },
+            {
+                "id": 79774,
+                "description": "Fungarian Furor",
+                "amount": 1
+            },
+            {
+                "id": 79775,
+                "description": "Foul Manifestation",
+                "amount": 1
+            },
+            {
+                "id": 79776,
+                "description": "Deepwater Maw",
+                "amount": 1
+            },
+            {
+                "id": 79777,
+                "description": "OOX-Avenger/MG",
+                "amount": 1
+            },
+            {
+                "id": 79778,
+                "description": "Bonepicker",
+                "amount": 1
+            },
+            {
+                "id": 79779,
+                "description": "Boggac Skullbash",
+                "amount": 1
+            },
+            {
+                "id": 79781,
+                "description": "Uncle T'Rogg",
+                "amount": 1
+            },
+            {
+                "id": 79782,
+                "description": "Seaspit",
+                "amount": 1
+            },
+            {
+                "id": 79783,
+                "description": "Sparkqueen P'Emp",
+                "amount": 1
+            },
+            {
+                "id": 79784,
+                "description": "Rustfeather",
+                "amount": 1
+            },
+            {
+                "id": 79785,
+                "description": "Malfunctioning Beastbot",
+                "amount": 1
+            },
+            {
+                "id": 79787,
+                "description": "Crazed Trogg",
+                "amount": 1
+            },
+            {
+                "id": 79788,
+                "description": "Earthbreaker Gulroc",
+                "amount": 1
+            },
+            {
+                "id": 79803,
+                "description": "Ol' Big Tusk",
+                "amount": 1
+            },
+            {
+                "id": 79804,
+                "description": "Gemicide",
+                "amount": 1
+            },
+            {
+                "id": 79816,
+                "description": "Oxidized Leachbeast",
+                "amount": 1
+            },
+            {
+                "id": 79811,
+                "description": "Boilburn",
+                "amount": 1
+            },
+            {
+                "id": 79812,
+                "description": "The Kleptoboss",
+                "amount": 1
+            },
+            {
+                "id": 79813,
+                "description": "Steel Singer Freza",
+                "amount": 1
+            },
+            {
+                "id": 79814,
+                "description": "Gear Checker Cogstar",
+                "amount": 1
+            },
+            {
+                "id": 79815,
+                "description": "Mr. Fixthis",
+                "amount": 1
+            },
+            {
+                "id": 79817,
+                "description": "Vaultbot",
+                "amount": 1
+            },
+            {
+                "id": 80320,
+                "description": "Enforcer KX-T57",
+                "amount": 1
+            },
+            {
+                "id": 80321,
+                "description": "The Rusty Prince",
+                "amount": 1
+            },
+            {
+                "id": 80390,
+                "description": "Gorged Gear-Cruncher",
+                "amount": 1
+            },
+            {
+                "id": 80392,
+                "description": "Caustic Mechaslime",
+                "amount": 1
+            },
+            {
+                "id": 80418,
+                "description": "The Doppel Gang",
+                "amount": 1
+            },
+            {
+                "id": 80842,
+                "description": "Scrapclaw",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13470?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13470
+    },
+    "display_order": 88
+}

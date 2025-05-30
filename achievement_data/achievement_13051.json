@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13051?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13051,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Legends of the Tidesages",
+    "description": "Discover each of the lore objects in Stormsong Valley that tell the legacy of the tidesages.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68669,
+        "description": "8.0 Stormsong - Achievement - Discover Lore Objects - GJC",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68670,
+                "description": "Legends of the Tidesages - Part 1",
+                "amount": 1
+            },
+            {
+                "id": 68671,
+                "description": "Legends of the Tidesages - Part 2",
+                "amount": 1
+            },
+            {
+                "id": 68672,
+                "description": "Legends of the Tidesages - Part 3",
+                "amount": 1
+            },
+            {
+                "id": 68673,
+                "description": "Legends of the Tidesages - Part 4",
+                "amount": 1
+            },
+            {
+                "id": 68674,
+                "description": "Legends of the Tidesages - Part 5",
+                "amount": 1
+            },
+            {
+                "id": 68675,
+                "description": "Legends of the Tidesages - Part 6",
+                "amount": 1
+            },
+            {
+                "id": 68676,
+                "description": "Legends of the Tidesages - Part 7",
+                "amount": 1
+            },
+            {
+                "id": 68677,
+                "description": "Legends of the Tidesages - Part 8",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13051?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13051
+    },
+    "display_order": 41
+}

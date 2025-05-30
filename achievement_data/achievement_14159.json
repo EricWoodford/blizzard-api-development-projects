@@ -1,0 +1,132 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/14159?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 14159,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Combating the Corruption",
+    "description": "Kill 10 types of corrupted creatures in Uldum or Vale of Eternal Blossoms during Black Empire Assaults.",
+    "points": 10,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 83551,
+        "description": "8.3 Kill 10 Corrupted Rares",
+        "amount": 10,
+        "operator": {
+            "type": "COMPLETE_AT_LEAST",
+            "name": "Complete At Least"
+        },
+        "child_criteria": [
+            {
+                "id": 83552,
+                "description": "Corrupted Acolyte",
+                "amount": 1
+            },
+            {
+                "id": 83553,
+                "description": "Corrupted Assassin",
+                "amount": 1
+            },
+            {
+                "id": 83554,
+                "description": "Corrupted Beheader",
+                "amount": 1
+            },
+            {
+                "id": 83555,
+                "description": "Corrupted Bloodseeker",
+                "amount": 1
+            },
+            {
+                "id": 83556,
+                "description": "Corrupted Bonestripper",
+                "amount": 1
+            },
+            {
+                "id": 83557,
+                "description": "Corrupted Despoiler",
+                "amount": 1
+            },
+            {
+                "id": 83558,
+                "description": "Corrupted Dominator",
+                "amount": 1
+            },
+            {
+                "id": 83559,
+                "description": "Corrupted Doomsayer",
+                "amount": 1
+            },
+            {
+                "id": 83560,
+                "description": "Corrupted Fleshbeast",
+                "amount": 1
+            },
+            {
+                "id": 83561,
+                "description": "Corrupted Jailer",
+                "amount": 1
+            },
+            {
+                "id": 83562,
+                "description": "Corrupted Mind Eater",
+                "amount": 1
+            },
+            {
+                "id": 83563,
+                "description": "Corrupted Neferset Guard",
+                "amount": 1
+            },
+            {
+                "id": 83564,
+                "description": "Corrupted Observer",
+                "amount": 1
+            },
+            {
+                "id": 83565,
+                "description": "Corrupted Putrefaction",
+                "amount": 1
+            },
+            {
+                "id": 83566,
+                "description": "Corrupted Summoner",
+                "amount": 1
+            },
+            {
+                "id": 83567,
+                "description": "Corrupted Thaumaturge",
+                "amount": 1
+            },
+            {
+                "id": 83568,
+                "description": "Corrupted Thoughtstealer",
+                "amount": 1
+            },
+            {
+                "id": 83569,
+                "description": "Corrupted Tormentor",
+                "amount": 1
+            },
+            {
+                "id": 83570,
+                "description": "Corrupted Watcher",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/14159?namespace=static-11.1.5_60179-us"
+        },
+        "id": 14159
+    },
+    "display_order": 11
+}

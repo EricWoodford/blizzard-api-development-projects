@@ -1,0 +1,63 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/13082?namespace=static-11.1.5_60179-us"
+        }
+    },
+    "id": 13082,
+    "category": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-11.1.5_60179-us"
+        },
+        "name": "Battle for Azeroth",
+        "id": 15298
+    },
+    "name": "Everything Old Is New Again",
+    "description": "Find and return the following Order of Embers relics to their rightful place in Drustvar.",
+    "points": 5,
+    "is_account_wide": true,
+    "criteria": {
+        "id": 68937,
+        "description": "8.0 Drustvar - Everything Old Is New Again - KRB",
+        "amount": 0,
+        "operator": {
+            "type": "AND",
+            "name": "Complete All"
+        },
+        "child_criteria": [
+            {
+                "id": 68938,
+                "description": "Crossbow",
+                "amount": 1
+            },
+            {
+                "id": 68939,
+                "description": "Flask",
+                "amount": 1
+            },
+            {
+                "id": 68940,
+                "description": "Hat",
+                "amount": 1
+            },
+            {
+                "id": 68941,
+                "description": "Knife",
+                "amount": 1
+            }
+        ]
+    },
+    "media": {
+        "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/achievement/13082?namespace=static-11.1.5_60179-us"
+        },
+        "id": 13082
+    },
+    "display_order": 38,
+    "requirements": {
+        "faction": {
+            "type": "ALLIANCE",
+            "name": "Alliance"
+        }
+    }
+}
