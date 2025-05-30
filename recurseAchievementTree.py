@@ -26,11 +26,11 @@ achievement_hash = defaultdict(list)
 
 # return specific achievement info from achievement id
 def get_achievement_from_id(access_token, region, achievement_id, locale):    
-    fileName = f"./user_data/achievement_{achievement_id}.json"
+    fileName = f"./achievement_data/achievement_{achievement_id}.json"
 
-    # see if the user_data directory exists, if not, create it
-    if not os.path.exists("./user_data"):
-        os.makedirs("./user_data")
+    # see if the achievement_data directory exists, if not, create it
+    if not os.path.exists("./achievement_data"):
+        os.makedirs("./achievement_data")
     
     # if the achievement info has already been fetched, load it from the file
     # otherwise, fetch it from the API and save it to the file
@@ -131,8 +131,10 @@ if __name__ == "__main__":
         with open(dict_fileName, "r") as file:
             achievement_hash = json.load(file)
     
+    if "Character_Reports" not in os.listdir():
+        os.makedirs("Character_Reports")
     # get this characters achievement dump, if file exists, load it, otherwise fetch it from the API
-    user_achievement_file = f"./{CHARACTER_NAME}_{REALM_NAME}_character_achievements.json"
+    user_achievement_file = f"./Character_Reports/{CHARACTER_NAME}_{REALM_NAME}_character_achievements.json"
     if os.path.exists(user_achievement_file):
         with open(user_achievement_file, "r") as file:
             character_achievements = json.load(file)
@@ -222,8 +224,8 @@ if __name__ == "__main__":
                 achievement_report.append(achievement_entry)
 
     # start outputting the report
-    achievement_report_file = f"./{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.html"
-    achievement_report_json = f"./{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.json"
+    achievement_report_file = f"./Character_Reports/{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.html"
+    achievement_report_json = f"./Character_Reports/{CHARACTER_NAME}_{REALM_NAME}_{parent_achievement_name}_achievement_report.json"
     with open(achievement_report_json, "w") as file:
         json.dump(achievement_report, file, indent=4)    
 
